@@ -1,2 +1,4 @@
 Here is some text.
 
+Another line added..
+
