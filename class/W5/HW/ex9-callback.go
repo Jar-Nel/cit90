@@ -10,8 +10,8 @@ func main() {
 		return "We totally failed"
 	}
 
-	fmt.Println(doSomething(true,s,f))
-	fmt.Println(doSomething(false,s,f))
+	fmt.Println("true",doSomething(true,s,f))
+	fmt.Println("false",doSomething(false,s,f))
 }
 
 func doSomething(done bool, success func()string, failure func()string)string {
