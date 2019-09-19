@@ -23,6 +23,7 @@ func main() {
 	wg.Wait()
 
 	fmt.Println("Finish routines", runtime.NumGoroutine())
+	// print counter at end of program
 	fmt.Println("Finish counter",counter)
 }
 
@@ -30,14 +31,13 @@ func main() {
 func foo(i int){
 	fmt.Println(i)
 
+	// use mutex lock
 	mut.Lock()
+	// add a counter and increment each time foo prints
 	counter++
 	mut.Unlock()
 
 	wg.Done()
 }
 
-// add a counter and increment each time foo prints
-// print counter at end of program
-// use mutex lock
 // check there is no race condition with -race flag
