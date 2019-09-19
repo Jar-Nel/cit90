@@ -27,9 +27,6 @@ func main () {
 		favIceCreamFlavors: []string {"Rocky Road", "Strawberry Cheesecake"},
 	}
 
-	//p1.printFlav()
-	//p2.printFlav()
-	
 	m:=map[string]person{
 		p1.lastName: p1,
 		p2.lastName: p2,
