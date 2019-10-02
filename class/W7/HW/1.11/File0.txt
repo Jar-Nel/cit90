@@ -1,0 +1,2098 @@
+<!DOCTYPE html>
+<html lang="en-GB" dir="ltr">
+        <head>
+    
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        
+
+        
+            
+    <meta charset="utf-8" />
+	<base href="http://www.sjcl.edu/" />
+	<meta name="keywords" content="san joaquin college of law, san joaquin, college of law, sjcl, fresno, clovis, ca, cal, court, attorney, lawyer, juris doctor, jd, california, agricultural, agriculture, law review, valley, fresno county" />
+	<meta name="rights" content="San Joaquin College of Law" />
+	<meta name="description" content="San Joaquin College of Law desires to be the premier provider of legal education, scholarship, and service in the San Joaquin Valley." />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>Home</title>
+	<link href="/index.php?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+	<link href="/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+	<link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="/plugins/system/rokbox/assets/styles/rokbox.css" rel="stylesheet" />
+	<link href="/templates/rt_callisto/roksprocket/layouts/strips/themes/separated/separated.css" rel="stylesheet" />
+	<link href="/components/com_roksprocket/layouts/lists/themes/default/lists.css" rel="stylesheet" />
+	<link href="/media/gantry5/assets/css/font-awesome.min.css" rel="stylesheet" />
+	<link href="/media/gantry5/engines/nucleus/css-compiled/nucleus.css" rel="stylesheet" />
+	<link href="/templates/rt_callisto/custom/css-compiled/callisto_67.css" rel="stylesheet" />
+	<link href="/media/gantry5/assets/css/bootstrap-gantry.css" rel="stylesheet" />
+	<link href="/media/gantry5/engines/nucleus/css-compiled/joomla.css" rel="stylesheet" />
+	<link href="/media/jui/css/icomoon.css" rel="stylesheet" />
+	<link href="/templates/rt_callisto/custom/css-compiled/callisto-joomla_67.css" rel="stylesheet" />
+	<link href="/templates/rt_callisto/custom/css-compiled/custom_67.css" rel="stylesheet" />
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"773f066f8fde3b72c0947fb7963b650c","system.paths":{"root":"","base":""}}</script>
+	<script src="/media/jui/js/jquery.min.js?c33c116184aefd9b1d57c2508b6c68db"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?c33c116184aefd9b1d57c2508b6c68db"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js?c33c116184aefd9b1d57c2508b6c68db"></script>
+	<script src="/media/system/js/caption.js?c33c116184aefd9b1d57c2508b6c68db"></script>
+	<script src="/media/jui/js/bootstrap.min.js?c33c116184aefd9b1d57c2508b6c68db"></script>
+	<script src="/media/system/js/core.js?c33c116184aefd9b1d57c2508b6c68db"></script>
+	<script src="/media/system/js/mootools-core.js?c33c116184aefd9b1d57c2508b6c68db"></script>
+	<script src="/media/system/js/mootools-more.js?c33c116184aefd9b1d57c2508b6c68db"></script>
+	<script src="/plugins/system/rokbox/assets/js/rokbox.js"></script>
+	<script src="/components/com_roksprocket/assets/js/mootools-mobile.js"></script>
+	<script src="/components/com_roksprocket/assets/js/rokmediaqueries.js"></script>
+	<script src="/components/com_roksprocket/assets/js/roksprocket.js"></script>
+	<script src="/components/com_roksprocket/assets/js/moofx.js"></script>
+	<script src="/components/com_roksprocket/assets/js/roksprocket.request.js"></script>
+	<script src="/components/com_roksprocket/layouts/strips/assets/js/strips.js"></script>
+	<script src="/components/com_roksprocket/layouts/strips/assets/js/strips-speeds.js"></script>
+	<script src="/components/com_roksprocket/layouts/lists/assets/js/lists.js"></script>
+	<script src="/components/com_roksprocket/layouts/lists/themes/default/lists.js"></script>
+	<script>
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });if (typeof RokBoxSettings == 'undefined') RokBoxSettings = {pc: '100'};if (typeof RokSprocket == 'undefined') RokSprocket = {};
+Object.merge(RokSprocket, {
+	SiteURL: 'http://www.sjcl.edu/',
+	CurrentURL: 'http://www.sjcl.edu/',
+	AjaxURL: 'http://www.sjcl.edu/index.php?option=com_roksprocket&amp;task=ajax&amp;format=raw&amp;ItemId=101'
+});
+window.addEvent('domready', function(){
+		RokSprocket.instances.strips = new RokSprocket.Strips();
+});
+window.addEvent('domready', function(){
+	RokSprocket.instances.strips.attach(264, '{"animation":"fade","autoplay":"1","delay":"5"}');
+});
+window.addEvent('load', function(){
+   var overridden = false;
+   if (!overridden && window.G5 && window.G5.offcanvas){
+       var mod = document.getElement('[data-strips="264"]');
+       mod.addEvents({
+           touchstart: function(){ window.G5.offcanvas.detach(); },
+           touchend: function(){ window.G5.offcanvas.attach(); }
+       });
+       overridden = true;
+   };
+});
+window.addEvent('domready', function(){
+	RokSprocket.instances.strips.attach(193, '{"animation":"fade","autoplay":"1","delay":"7"}');
+});
+window.addEvent('load', function(){
+   var overridden = false;
+   if (!overridden && window.G5 && window.G5.offcanvas){
+       var mod = document.getElement('[data-strips="193"]');
+       mod.addEvents({
+           touchstart: function(){ window.G5.offcanvas.detach(); },
+           touchend: function(){ window.G5.offcanvas.attach(); }
+       });
+       overridden = true;
+   };
+});
+window.addEvent('domready', function(){
+		RokSprocket.instances.lists = new RokSprocket.Lists();
+});
+window.addEvent('domready', function(){
+	RokSprocket.instances.lists.attach(221, '{"accordion":"1","autoplay":"0","delay":"8"}');
+});
+window.addEvent('load', function(){
+   var overridden = false;
+   if (!overridden && window.G5 && window.G5.offcanvas){
+       var mod = document.getElement('[data-lists="221"]');
+       mod.addEvents({
+           touchstart: function(){ window.G5.offcanvas.detach(); },
+           touchend: function(){ window.G5.offcanvas.attach(); }
+       });
+       overridden = true;
+   };
+});
+window.addEvent('domready', function(){
+	RokSprocket.instances.lists.attach(105, '{"accordion":"1","autoplay":"0","delay":"5"}');
+});
+window.addEvent('load', function(){
+   var overridden = false;
+   if (!overridden && window.G5 && window.G5.offcanvas){
+       var mod = document.getElement('[data-lists="105"]');
+       mod.addEvents({
+           touchstart: function(){ window.G5.offcanvas.detach(); },
+           touchend: function(){ window.G5.offcanvas.attach(); }
+       });
+       overridden = true;
+   };
+});
+window.addEvent('domready', function(){
+	RokSprocket.instances.lists.attach(109, '{"accordion":"1","autoplay":"0","delay":"5"}');
+});
+window.addEvent('load', function(){
+   var overridden = false;
+   if (!overridden && window.G5 && window.G5.offcanvas){
+       var mod = document.getElement('[data-lists="109"]');
+       mod.addEvents({
+           touchstart: function(){ window.G5.offcanvas.detach(); },
+           touchend: function(){ window.G5.offcanvas.attach(); }
+       });
+       overridden = true;
+   };
+});
+window.addEvent('domready', function(){
+	RokSprocket.instances.lists.attach(261, '{"accordion":"0","autoplay":"0","delay":"8"}');
+});
+window.addEvent('load', function(){
+   var overridden = false;
+   if (!overridden && window.G5 && window.G5.offcanvas){
+       var mod = document.getElement('[data-lists="261"]');
+       mod.addEvents({
+           touchstart: function(){ window.G5.offcanvas.detach(); },
+           touchend: function(){ window.G5.offcanvas.attach(); }
+       });
+       overridden = true;
+   };
+});
+window.addEvent('domready', function(){
+	RokSprocket.instances.lists.attach(106, '{"accordion":"1","autoplay":"0","delay":"5"}');
+});
+window.addEvent('load', function(){
+   var overridden = false;
+   if (!overridden && window.G5 && window.G5.offcanvas){
+       var mod = document.getElement('[data-lists="106"]');
+       mod.addEvents({
+           touchstart: function(){ window.G5.offcanvas.detach(); },
+           touchend: function(){ window.G5.offcanvas.attach(); }
+       });
+       overridden = true;
+   };
+});
+window.addEvent('domready', function(){
+	RokSprocket.instances.lists.attach(248, '{"accordion":"1","autoplay":"0","delay":"5"}');
+});
+window.addEvent('load', function(){
+   var overridden = false;
+   if (!overridden && window.G5 && window.G5.offcanvas){
+       var mod = document.getElement('[data-lists="248"]');
+       mod.addEvents({
+           touchstart: function(){ window.G5.offcanvas.detach(); },
+           touchend: function(){ window.G5.offcanvas.attach(); }
+       });
+       overridden = true;
+   };
+});
+
+	</script>
+
+    <!--[if (gte IE 8)&(lte IE 9)]>
+        <script type="text/javascript" src="/media/gantry5/assets/js/html5shiv-printshiv.min.js"></script>
+        <link rel="stylesheet" href="/media/gantry5/engines/nucleus/css/nucleus-ie9.css" type="text/css"/>
+        <script type="text/javascript" src="/media/gantry5/assets/js/matchmedia.polyfill.js"></script>
+        <![endif]-->
+                        <meta name="apple-mobile-web-app-title" content="SJCL">
+<link rel="apple-touch-icon" sizes="57x57" href="http://www.sjcl.edu/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="http://www.sjcl.edu/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="http://www.sjcl.edu/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="http://www.sjcl.edu/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="http://www.sjcl.edu/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="http://www.sjcl.edu/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="http://www.sjcl.edu/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="http://www.sjcl.edu/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://www.sjcl.edu/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="http://www.sjcl.edu/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://www.sjcl.edu/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="http://www.sjcl.edu/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://www.sjcl.edu/favicon-16x16.png">
+
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43550022-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+                
+</head>
+
+    <body class="gantry site com_content view-featured no-layout no-task dir-ltr itemid-101 outline-67 g-offcanvas-right g-home g-style-preset3">
+        <?php include_once("analyticstracking.php") ?>
+                    
+
+        <div id="g-offcanvas"  data-g-offcanvas-swipe="1" data-g-offcanvas-css3="1">
+                        <div class="g-grid">                        
+
+        <div class="g-block size-100">
+             <div id="mobile-menu-2158-particle" class="g-content g-particle">            <div id="g-mobilemenu-container" data-g-menu-breakpoint="767px"></div>
+            </div>
+        </div>
+            </div>
+                    <div class="g-grid">                        
+
+        <div class="g-block size-100 top-menu-mobile">
+             <div class="g-content">
+                                    <div class="platform-content"><div class="moduletable ">
+						
+
+<div class="custom"  >
+	<div style="padding-left: 10px;">
+<div class="mobile-shell">
+	<a href="/index.php/alumni-profiles-new" style="text-decoration: none;">
+	<div class="mobile-title">Alumni</div>
+	</a>
+</div>
+<div class="mobile-shell">
+	<a href="/index.php/student-resources" style="text-decoration: none;">
+	<div class="mobile-title">Students</div>
+	</a>
+</div>
+<div class="mobile-shell">
+	<a href="/index.php/why-give" style="text-decoration: none;">
+	<div class="mobile-title">Giving</div>
+	</a>
+</div>
+<div class="mobile-shell">
+	<a href="/index.php/library" style="text-decoration: none;">
+	<div class="mobile-title">Law Library</div>
+	</a>
+</div>
+<div class="mobile-shell">
+	<a href="/index.php/sjalr" style="text-decoration: none;">
+	<div class="mobile-title">SJALR</div>
+	</a>
+</div>
+<div class="mobile-shell">
+	<a href="/index.php/nalc" style="text-decoration: none;">
+	<div class="mobile-title">NALC</div>
+	</a>
+</div>
+<div class="mobile-shell">
+	<a href="/index.php/bren" style="text-decoration: none;">
+	<div class="mobile-title">BREN</div>
+	</a>
+</div>
+</div>
+</div>
+		</div></div>
+            
+        </div>
+        </div>
+            </div>
+    </div>
+        <div id="g-page-surround">
+            <div class="g-offcanvas-hide g-offcanvas-toggle" data-offcanvas-toggle aria-controls="g-offcanvas" aria-expanded="false"><i class="fa fa-fw fa-bars"></i></div>                        
+
+                                            
+                <header id="g-header">
+                <div class="g-container">                                <div class="g-grid">                        
+
+        <div class="g-block size-100">
+             <div class="g-system-messages">
+                                            
+            
+    </div>
+        </div>
+            </div>
+                            <div class="g-grid">                        
+
+        <div class="g-block size-100">
+             <div class="g-content">
+                                    <div class="platform-content"><div class="moduletable ">
+						
+
+<div class="custom"  >
+	<a href="https://webapp.sjcl.edu/forms/LearnMore.aspx"><div class="connectwithus ">Connect with Us</div></a>
+
+      <div style="background-color: #d79302; float: right; width: 40px; padding: 1px 0px 1px 0px; text-align: center; border-left: 1px solid #fff;  border-right: 1px solid #fff;">
+        <a href="http://www.sjcl.edu/index.php/search-sjcl?" title="Search">
+		<span class="fa fa-search fa-fw" style="color: #fff;"></span>
+	
+	</a>
+    </div>
+    <div class="g-social social-items" style="float: right;">
+	        <a target="_blank" href="https://twitter.com/SJCL1969" title="Twitter">
+			<span class="fa fa-twitter fa-fw" style="color: #fff;"> </span>
+		
+		</a>
+	        <a target="_blank" href="https://www.facebook.com/sanjoaquincollegeoflaw" title="Facebook">
+			<span class="fa fa-facebook fa-fw" style="color: #fff;"></span>
+		
+		</a>
+	        <a target="_blank" href="https://www.linkedin.com/edu/san-joaquin-college-of-law-17910" title="Linkedin">
+			<span class="fa fa-linkedin  fa-fw" style="color: #fff;"></span>
+			
+		</a>
+	        <a target="_blank" href="http://instagram.com/sanjoaquincollegeoflaw" title="Instagram">
+			<span class="fa fa-instagram  fa-fw" style="color: #fff;"></span>
+			
+		</a>
+	        <a target="_blank" href="http://www.youtube.com/channel/UCRw6lQUGLlJK-D_h8yBIBPg" title="Youtube">
+			<span class="fa fa-youtube  fa-fw" style="color: #fff; padding-right: 30px;"></span>
+		
+		</a>
+    </div>
+
+</div>
+		</div></div>
+            
+        </div>
+        </div>
+            </div>
+                            <div class="g-grid">                        
+
+        <div class="g-block size-100">
+             <div class="g-content">
+                                    <div class="platform-content"><div class="moduletable ">
+						
+
+<div class="custom"  >
+	<a href="/index.php/about/celebrating-50-years">
+<div class="L_display">
+	<div style="text-align: left; background: url(/images/stories/50th/sunrise_L.jpg) center top no-repeat; border-radius: 0px 0px 80px 80px;">
+	    <img src="/images/stories/50th/50yearsmore.png" width="520px" Alt="Celebrating 50 Years"  style="padding: 5px 0px 5px 170px;">
+	</div>
+</div>
+
+<div class="M_display">
+	<div style="text-align: left; background: url(/images/stories/50th/sunrise_L.jpg) center top no-repeat; border-radius: 0px 0px 80px 80px;">
+	    <img src="/images/stories/50th/50yearsmore.png" width="440px" Alt="Celebrating 50 Years"  style="padding: 5px 0px 5px 120px;">
+	</div>
+</div>
+
+<div class="S_display">
+	<div style="text-align: left; background: url(/images/stories/50th/sunrise_S.jpg) center top no-repeat; border-radius: 0px 0px 80px 80px;">
+	    <img src="/images/stories/50th/50yearsmore.png" width="420px" Alt="Celebrating 50 Years"  style="padding: 5px 0px 5px 90px;">
+	</div>
+</div>
+
+<div class="XS_display">
+    <div style="text-align: center; background-color: #366192;">
+        <img src="/images/stories/50th/50yearsmore.png" width="300px" Alt="Celebrating 50 Years" style="padding: 5px;">
+    </div>
+</div>
+</a></div>
+		</div></div>
+            
+        </div>
+        </div>
+            </div>
+                            <div class="g-grid">                        
+
+        <div class="g-block size-28 sjcllogo">
+             <div id="logo-9484-particle" class="g-content g-particle">            <a href="/" target="_self" title="San Joaquin College of Law" aria-label="San Joaquin College of Law" rel="home" class="g-logo">
+                        <img src="/images/SJCL_blue.svg"  alt="San Joaquin College of Law" />
+            </a>
+            </div>
+        </div>
+                    
+
+        <div class="g-block size-72 top-menu-desktop">
+             <div class="g-content">
+                                    <div class="platform-content"><div class="moduletable ">
+						
+
+<div class="custom"  >
+	<div class="menuout">
+    <a href="/index.php/alumni-profiles-new"><div class="topmenu">ALUMNI</div></a> • 
+    <a href="/index.php/student-resources"><div class="topmenu">STUDENTS</div></a> • 
+    <a href="/index.php/why-give"><div class="topmenu">GIVING</div></a> • 
+    <a href="/index.php/library"><div class="topmenu">LIBRARY</div></a> • 
+    <a href="/index.php/sjalr"><div class="topmenu">SJALR</div></a> • 
+    <a href="/index.php/nalc"><div class="topmenu">NALC</div></a> • 
+    <a href="/index.php/bren"><div class="topmenu">BREN</div></a>
+</div></div>
+		</div></div>
+            
+        </div>
+        </div>
+            </div>
+            </div>
+        
+    </header>
+                                
+                <section id="g-navigation">
+                <div class="g-container">                                <div class="g-grid">                        
+
+        <div class="g-block size-100 g-menu-block">
+             <div id="menu-5705-particle" class="g-content g-particle">            <nav class="g-main-nav" role="navigation" data-g-hover-expand="true">
+    <ul class="g-toplevel">
+                                            
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-alias g-menu-item-390 g-parent g-standard g-menu-item-link-parent ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/why-sjcl/why-sjcl">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Future Students</span>
+            
+                    </span>
+                    <span class="g-menu-parent-indicator" data-g-menuparent=""></span>                            </a>
+                                                        <ul class="g-dropdown g-inactive g-fade g-dropdown-right">
+            <li class="g-dropdown-column">
+                        <div class="g-grid">
+                        <div class="g-block size-100">
+            <ul class="g-sublevel">
+                <li class="g-level-1 g-go-back">
+                    <a class="g-menu-item-container" href="#" data-g-menuparent=""><span>Back</span></a>
+                </li>
+                                                                                                            
+        <li class="g-menu-item g-menu-item-type-alias g-menu-item-394 g-parent g-menu-item-link-parent ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/why-sjcl/why-sjcl">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Why SJCL?</span>
+            
+                    </span>
+                    <span class="g-menu-parent-indicator" data-g-menuparent=""></span>                            </a>
+                                                        <ul class="g-dropdown g-inactive g-fade g-dropdown-right">
+            <li class="g-dropdown-column">
+                        <div class="g-grid">
+                        <div class="g-block size-100">
+            <ul class="g-sublevel">
+                <li class="g-level-2 g-go-back">
+                    <a class="g-menu-item-container" href="#" data-g-menuparent=""><span>Back</span></a>
+                </li>
+                                                                                                            
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-627  ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/why-sjcl/why-sjcl">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Why SJCL?</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-407  ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/why-sjcl/dean-s-message">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Dean&#039;s Message</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-409  ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/why-sjcl/achieve-employment">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Achieve Employment</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-410  ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/why-sjcl/affordability">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Affordability</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-411  ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/why-sjcl/alumni-success">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Alumni Success</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-412  ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/why-sjcl/collaborative-environment">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Collaborative Environment</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-413  ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/why-sjcl/experiential-learning">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Experiential Learning</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-414  ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/why-sjcl/externships">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Externships</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-415  ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/why-sjcl/out-and-about">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Out and About</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-416  ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/why-sjcl/practicing-outside-california">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Practicing Outside CA</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+    
+            </ul>
+        </div>
+            </div>
+
+            </li>
+        </ul>
+            </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-708  ">
+            <a class="g-menu-item-container" href="https://webapp.sjcl.edu/forms/LearnMore.aspx">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Connect with Us</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-alias g-menu-item-700  ">
+            <a class="g-menu-item-container" href="/index.php/about/accreditation">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Accreditation</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-431  ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/admitted-students">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Admitted Students</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-427  ">
+            <a class="g-menu-item-container" href="https://webapp.sjcl.edu/OnlineApplication/default.aspx?LinkType=SA">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Apply Online</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-726  ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/diversity-and-inclusion">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Diversity and Inclusion</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-alias g-menu-item-408 g-parent g-menu-item-link-parent ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/forums/law-school-forums">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Forums</span>
+            
+                    </span>
+                    <span class="g-menu-parent-indicator" data-g-menuparent=""></span>                            </a>
+                                                        <ul class="g-dropdown g-inactive g-fade g-dropdown-right">
+            <li class="g-dropdown-column">
+                        <div class="g-grid">
+                        <div class="g-block size-100">
+            <ul class="g-sublevel">
+                <li class="g-level-2 g-go-back">
+                    <a class="g-menu-item-container" href="#" data-g-menuparent=""><span>Back</span></a>
+                </li>
+                                                                                                            
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-628  ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/forums/law-school-forums">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Forums</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-420  ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/forums/career-panel">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Career Panel</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-418  ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/forums/law-school-101">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Law School 101</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-419  ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/forums/lsat-night">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">LSAT Night</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-673  ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/forums/veteran-s-to-law-school-panel">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title"> Veterans to Law School</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-732  ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/forums/tour-reservation">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Tour Reservation</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+    
+            </ul>
+        </div>
+            </div>
+
+            </li>
+        </ul>
+            </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-693  ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/blog">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">SJCL Blog</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-432  ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/sjcl-connect">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">SJCL Connect</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-alias g-menu-item-424 g-parent g-menu-item-link-parent ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/student-org/student-bar-association">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Student Organizations</span>
+            
+                    </span>
+                    <span class="g-menu-parent-indicator" data-g-menuparent=""></span>                            </a>
+                                                        <ul class="g-dropdown g-inactive g-fade g-dropdown-right">
+            <li class="g-dropdown-column">
+                        <div class="g-grid">
+                        <div class="g-block size-100">
+            <ul class="g-sublevel">
+                <li class="g-level-2 g-go-back">
+                    <a class="g-menu-item-container" href="#" data-g-menuparent=""><span>Back</span></a>
+                </li>
+                                                                                                            
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-423  ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/student-org/student-bar-association">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Student Bar Association</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-709  ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/student-org/christian-legal-society">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Christian Legal Society</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-425  ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/student-org/delta-theta-phi">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Delta Theta Phi</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-426  ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/student-org/lawsuit">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">LawSUIT</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-665  ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/student-org/lsca">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">LSCA</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+    
+            </ul>
+        </div>
+            </div>
+
+            </li>
+        </ul>
+            </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-659  ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/transfer-students">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Transfer Students</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-443  ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/veteran-s-benefits">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Veteran&#039;s Benefits</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-421  ">
+            <a class="g-menu-item-container" href="/index.php/prospective-students/viewbook-request-form">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Viewbook Request</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+    
+            </ul>
+        </div>
+            </div>
+
+            </li>
+        </ul>
+            </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-alias g-menu-item-398 g-parent g-standard g-menu-item-link-parent ">
+            <a class="g-menu-item-container" href="/index.php/academics/law-program">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Academics</span>
+            
+                    </span>
+                    <span class="g-menu-parent-indicator" data-g-menuparent=""></span>                            </a>
+                                                        <ul class="g-dropdown g-inactive g-fade g-dropdown-right">
+            <li class="g-dropdown-column">
+                        <div class="g-grid">
+                        <div class="g-block size-100">
+            <ul class="g-sublevel">
+                <li class="g-level-1 g-go-back">
+                    <a class="g-menu-item-container" href="#" data-g-menuparent=""><span>Back</span></a>
+                </li>
+                                                                                                            
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-629  ">
+            <a class="g-menu-item-container" href="/index.php/academics/law-program">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Law Program</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-430  ">
+            <a class="g-menu-item-container" href="/index.php/academics/academic-calendar">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Academic Calendar</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-740  ">
+            <a class="g-menu-item-container" href="/index.php/academics/academic-support-program">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Academic Support Program</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-433  ">
+            <a class="g-menu-item-container" href="/index.php/academics/career-services">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Career Services</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-alias g-menu-item-434 g-parent g-menu-item-link-parent ">
+            <a class="g-menu-item-container" href="/index.php/academics/curriculum/curriculum">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Curriculum</span>
+            
+                    </span>
+                    <span class="g-menu-parent-indicator" data-g-menuparent=""></span>                            </a>
+                                                        <ul class="g-dropdown g-inactive g-fade g-dropdown-right">
+            <li class="g-dropdown-column">
+                        <div class="g-grid">
+                        <div class="g-block size-100">
+            <ul class="g-sublevel">
+                <li class="g-level-2 g-go-back">
+                    <a class="g-menu-item-container" href="#" data-g-menuparent=""><span>Back</span></a>
+                </li>
+                                                                                                            
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-692  ">
+            <a class="g-menu-item-container" href="/index.php/academics/curriculum/curriculum">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Curriculum</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-435  ">
+            <a class="g-menu-item-container" href="/index.php/academics/curriculum/required-courses">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Required Courses</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-436  ">
+            <a class="g-menu-item-container" href="/index.php/academics/curriculum/elective-courses">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Elective Courses</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-437  ">
+            <a class="g-menu-item-container" href="/index.php/academics/curriculum/typical-curriculum">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Typical Curriculum</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-438  ">
+            <a class="g-menu-item-container" href="/index.php/academics/curriculum/co-op-with-fpu">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Co-op with FPU</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+    
+            </ul>
+        </div>
+            </div>
+
+            </li>
+        </ul>
+            </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-428  ">
+            <a class="g-menu-item-container" href="/index.php/academics/disability-services">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Disability Services</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-440  ">
+            <a class="g-menu-item-container" href="/index.php/academics/student-achievement">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Student Achievement</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-741  ">
+            <a class="g-menu-item-container" href="/index.php/academics/study-abroad">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Study Abroad</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-707  ">
+            <a class="g-menu-item-container" href="/index.php/academics/textbooks-and-supplemental-materials">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Textbooks and Materials</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-699  ">
+            <a class="g-menu-item-container" href="/index.php/academics/transcript-request">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Transcript/Diploma Request</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-449  ">
+            <a class="g-menu-item-container" href="/index.php/academics/tuition">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Tuition</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-439  ">
+            <a class="g-menu-item-container" href="/images/stories/Prospective_Students/sjcllawcatalog.pdf">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Law Catalog (PDF)</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+    
+            </ul>
+        </div>
+            </div>
+
+            </li>
+        </ul>
+            </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-alias g-menu-item-400 g-parent g-standard g-menu-item-link-parent ">
+            <a class="g-menu-item-container" href="/index.php/admissions/admissions">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Admissions</span>
+            
+                    </span>
+                    <span class="g-menu-parent-indicator" data-g-menuparent=""></span>                            </a>
+                                                        <ul class="g-dropdown g-inactive g-fade g-dropdown-right">
+            <li class="g-dropdown-column">
+                        <div class="g-grid">
+                        <div class="g-block size-100">
+            <ul class="g-sublevel">
+                <li class="g-level-1 g-go-back">
+                    <a class="g-menu-item-container" href="#" data-g-menuparent=""><span>Back</span></a>
+                </li>
+                                                                                                            
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-696  ">
+            <a class="g-menu-item-container" href="/index.php/admissions/admissions">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Admissions</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-680  ">
+            <a class="g-menu-item-container" href="/index.php/admissions/calbpc-informational-report">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">CalBPC Informational Report</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-429  ">
+            <a class="g-menu-item-container" href="/index.php/admissions/lsat-registration">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">LSAT Registration</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+    
+            </ul>
+        </div>
+            </div>
+
+            </li>
+        </ul>
+            </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-alias g-menu-item-441 g-parent g-standard g-menu-item-link-parent ">
+            <a class="g-menu-item-container" href="/index.php/financial-aid/financial-aid-info">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Financial Aid</span>
+            
+                    </span>
+                    <span class="g-menu-parent-indicator" data-g-menuparent=""></span>                            </a>
+                                                        <ul class="g-dropdown g-inactive g-fade g-dropdown-right">
+            <li class="g-dropdown-column">
+                        <div class="g-grid">
+                        <div class="g-block size-100">
+            <ul class="g-sublevel">
+                <li class="g-level-1 g-go-back">
+                    <a class="g-menu-item-container" href="#" data-g-menuparent=""><span>Back</span></a>
+                </li>
+                                                                                                            
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-653  ">
+            <a class="g-menu-item-container" href="/index.php/financial-aid/financial-aid-info">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Financial Aid</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-442  ">
+            <a class="g-menu-item-container" href="https://webapp.sjcl.edu/FinAid/FA_Application.aspx">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Apply for Financial Aid</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-406  ">
+            <a class="g-menu-item-container" href="/index.php/financial-aid/types-of-financial-aid">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Types of Financial Aid</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-alias g-menu-item-445 g-parent g-menu-item-link-parent ">
+            <a class="g-menu-item-container" href="/index.php/financial-aid/scholarships/sjcl-scholarships">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Scholarships</span>
+            
+                    </span>
+                    <span class="g-menu-parent-indicator" data-g-menuparent=""></span>                            </a>
+                                                        <ul class="g-dropdown g-inactive g-fade g-dropdown-right">
+            <li class="g-dropdown-column">
+                        <div class="g-grid">
+                        <div class="g-block size-100">
+            <ul class="g-sublevel">
+                <li class="g-level-2 g-go-back">
+                    <a class="g-menu-item-container" href="#" data-g-menuparent=""><span>Back</span></a>
+                </li>
+                                                                                                            
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-448  ">
+            <a class="g-menu-item-container" href="/index.php/financial-aid/scholarships/outside-scholarships">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Outside Scholarships</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-444  ">
+            <a class="g-menu-item-container" href="/index.php/financial-aid/scholarships/sjcl-scholarships">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">SJCL Scholarships</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-706  ">
+            <a class="g-menu-item-container" href="/index.php/financial-aid/scholarships/kharazi-book-scholarship">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Kharazi Book Scholarship</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+    
+            </ul>
+        </div>
+            </div>
+
+            </li>
+        </ul>
+            </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-720  ">
+            <a class="g-menu-item-container" href="/index.php/financial-aid/repayment-of-loans">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Repayment of Loans</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+    
+            </ul>
+        </div>
+            </div>
+
+            </li>
+        </ul>
+            </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-alias g-menu-item-451 g-parent g-standard g-menu-item-link-parent ">
+            <a class="g-menu-item-container" href="/index.php/faculty/full-time-faculty">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Faculty</span>
+            
+                    </span>
+                    <span class="g-menu-parent-indicator" data-g-menuparent=""></span>                            </a>
+                                                        <ul class="g-dropdown g-inactive g-fade g-dropdown-right">
+            <li class="g-dropdown-column">
+                        <div class="g-grid">
+                        <div class="g-block size-100">
+            <ul class="g-sublevel">
+                <li class="g-level-1 g-go-back">
+                    <a class="g-menu-item-container" href="#" data-g-menuparent=""><span>Back</span></a>
+                </li>
+                                                                                                            
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-450  ">
+            <a class="g-menu-item-container" href="/index.php/faculty/full-time-faculty">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Full-time Faculty</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-452  ">
+            <a class="g-menu-item-container" href="/index.php/faculty/adjunct-faculty">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Adjunct Faculty</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-url g-menu-item-453  ">
+            <a class="g-menu-item-container" href="https://sw.sjcl.edu/facsect.cfm">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Faculty Portal</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-454  ">
+            <a class="g-menu-item-container" href="/index.php/faculty/faculty-resources">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Faculty Resources</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+    
+            </ul>
+        </div>
+            </div>
+
+            </li>
+        </ul>
+            </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-alias g-menu-item-717 g-parent g-standard g-menu-item-link-parent ">
+            <a class="g-menu-item-container" href="/index.php/careers/a">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Careers</span>
+            
+                    </span>
+                    <span class="g-menu-parent-indicator" data-g-menuparent=""></span>                            </a>
+                                                        <ul class="g-dropdown g-inactive g-fade g-dropdown-right">
+            <li class="g-dropdown-column">
+                        <div class="g-grid">
+                        <div class="g-block size-100">
+            <ul class="g-sublevel">
+                <li class="g-level-1 g-go-back">
+                    <a class="g-menu-item-container" href="#" data-g-menuparent=""><span>Back</span></a>
+                </li>
+                                                                                                            
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-735  ">
+            <a class="g-menu-item-container" href="/index.php/careers/sjcl-admin-faculty">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">SJCL Admin &amp; Faculty</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-568  ">
+            <a class="g-menu-item-container" href="/index.php/careers/sjcl-student">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">SJCL Student</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-569  ">
+            <a class="g-menu-item-container" href="/index.php/careers/a">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Attorney</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-734  ">
+            <a class="g-menu-item-container" href="/index.php/careers/federal-work-study">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Federal Work Study</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-572  ">
+            <a class="g-menu-item-container" href="/index.php/careers/misc-legal">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Misc. Legal</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+                                                                                        
+        <li class="g-menu-item g-menu-item-type-component g-menu-item-571  ">
+            <a class="g-menu-item-container" href="/index.php/careers/p">
+                                                                <span class="g-menu-item-content">
+                                    <span class="g-menu-item-title">Paralegal</span>
+            
+                    </span>
+                                                </a>
+                                </li>
+    
+    
+            </ul>
+        </div>
+            </div>
+
+            </li>
+        </ul>
+            </li>
+    
+                                
+    
+    </ul>
+</nav>
+            </div>
+        </div>
+            </div>
+            </div>
+        
+    </section>
+                
+                                
+                
+    
+                <section id="g-container-9223" class="g-wrapper">
+                <div class="g-container">                    <div class="g-grid">                        
+
+        <div class="g-block size-100">
+             <section id="g-mainfeature">
+                                        <div class="g-grid">                        
+
+        <div class="g-block size-100">
+             <div class="g-content">
+                                    <div class="platform-content"><div class="moduletable mobile">
+						 <div class="sprocket-strips-s" data-strips="264">
+	<div class="sprocket-strips-s-overlay"><div class="css-loader-wrapper"><div class="css-loader"></div></div></div>
+	<ul class="sprocket-strips-s-container cols-3" data-strips-items>
+		<li class="sprocket-strips-s-block" data-strips-item>
+	<div class="sprocket-strips-s-item" data-strips-content>
+				<div class="sprocket-strips-s-content">
+										<span class="sprocket-strips-s-text">
+					<p>
+    <img src="/images/homepage/Yao_Vang.png" / alt="Yao Vang" class="rounded">
+</p>
+<p>
+    <i>“As a Hmong immigrant arriving from Laos, I had to adapt to a completely new language and culture. If you are a first-generation college student like me, I encourage you to pursue your education at SJCL."</i>
+</p>
+<p class="pull-right">
+    <small>
+        <cite>Yao Vang, Political Science, UC Merced</cite>
+    </small>
+</p>				</span>
+									<a href="/index.php/82-sjcl/testimonials/2010-yao-vang" class="readon"><span>Read More</span></a>
+					</div>
+	</div>
+</li>
+	</ul>
+	<div class="sprocket-strips-s-nav">
+		<div class="sprocket-strips-s-pagination-hidden">
+			<ul>
+									    	<li class="active" data-strips-page="1"><span>1</span></li>
+									    	<li data-strips-page="2"><span>2</span></li>
+									    	<li data-strips-page="3"><span>3</span></li>
+									    	<li data-strips-page="4"><span>4</span></li>
+									    	<li data-strips-page="5"><span>5</span></li>
+									    	<li data-strips-page="6"><span>6</span></li>
+									    	<li data-strips-page="7"><span>7</span></li>
+									    	<li data-strips-page="8"><span>8</span></li>
+									    	<li data-strips-page="9"><span>9</span></li>
+									    	<li data-strips-page="10"><span>10</span></li>
+									    	<li data-strips-page="11"><span>11</span></li>
+									    	<li data-strips-page="12"><span>12</span></li>
+									    	<li data-strips-page="13"><span>13</span></li>
+									    	<li data-strips-page="14"><span>14</span></li>
+									    	<li data-strips-page="15"><span>15</span></li>
+						</ul>
+		</div>
+				<div class="sprocket-strips-s-arrows">
+			<span class="arrow next" data-strips-next></span>
+			<span class="arrow prev" data-strips-previous></span>
+		</div>
+			</div>
+</div>
+		</div></div><div class="platform-content"><div class="moduletable desktop">
+						<div class="sprocket-strips-s" data-strips="193">
+	<div class="sprocket-strips-s-overlay"><div class="css-loader-wrapper"><div class="css-loader"></div></div></div>
+	<ul class="sprocket-strips-s-container cols-3" data-strips-items>
+		<li class="sprocket-strips-s-block" data-strips-item>
+	<div class="sprocket-strips-s-item" data-strips-content>
+				<div class="sprocket-strips-s-content">
+										<span class="sprocket-strips-s-text">
+					<p>
+    <img src="/images/homepage/Yao_Vang.png" / alt="Yao Vang" class="rounded">
+</p>
+<p>
+    <i>“As a Hmong immigrant arriving from Laos, I had to adapt to a completely new language and culture. If you are a first-generation college student like me, I encourage you to pursue your education at SJCL."</i>
+</p>
+<p class="pull-right">
+    <small>
+        <cite>Yao Vang, Political Science, UC Merced</cite>
+    </small>
+</p>				</span>
+									<a href="/index.php/82-sjcl/testimonials/2010-yao-vang" class="readon"><span>Read More</span></a>
+					</div>
+	</div>
+</li>
+<li class="sprocket-strips-s-block" data-strips-item>
+	<div class="sprocket-strips-s-item" data-strips-content>
+				<div class="sprocket-strips-s-content">
+										<span class="sprocket-strips-s-text">
+					<a href="/index.php/prospective-students/diversity-and-inclusion">
+
+	<div class="col" style="color: #002147;font-weight: 300;line-height: 1.3;text-align: center; margin: 15px 0px 12px 0px; padding: 35px 0px 35px 0px;">
+	Of the incoming Fall 2019 class,<br />
+
+	<span style="font-size: 300%; font-family: serif;">51%</span><br />
+
+	self-identify as a<br />
+
+	First-Generation College Student<br />
+
+	</div>
+	
+
+</a>
+<p>San Joaquin College of Law is committed to supporting and empowering first-generation college students.</p>
+<p style="text-align:right;">
+    <a href="/index.php/prospective-students/diversity-and-inclusion">Learn More</a>
+</p>				</span>
+									<a href="/index.php/82-sjcl/testimonials/2011-diversity-and-inclusion" class="readon"><span>Read More</span></a>
+					</div>
+	</div>
+</li>
+<li class="sprocket-strips-s-block" data-strips-item>
+	<div class="sprocket-strips-s-item" data-strips-content>
+				<div class="sprocket-strips-s-content">
+										<span class="sprocket-strips-s-text">
+					<p>
+    <img src="/images/homepage/Fabian_Perez.png" / alt="Fabian Perez" class="rounded">
+</p>
+<p>
+    <i>“Coming from Mexico, with English as my second language, and a first-generation college student, law school hasn’t been easy for me. However, deciding to attend is the best decision I’ve made. Don’t let fear stop you."</i>
+</p>
+<p class="pull-right">
+    <small>
+        <cite>Fabian Perez, Political Science, Fresno State</cite>
+    </small>
+</p>
+				</span>
+									<a href="/index.php/82-sjcl/testimonials/2009-fabian-perez-2" class="readon"><span>Read More</span></a>
+					</div>
+	</div>
+</li>
+	</ul>
+	<div class="sprocket-strips-s-nav">
+		<div class="sprocket-strips-s-pagination-hidden">
+			<ul>
+									    	<li class="active" data-strips-page="1"><span>1</span></li>
+									    	<li data-strips-page="2"><span>2</span></li>
+									    	<li data-strips-page="3"><span>3</span></li>
+									    	<li data-strips-page="4"><span>4</span></li>
+									    	<li data-strips-page="5"><span>5</span></li>
+						</ul>
+		</div>
+				<div class="sprocket-strips-s-arrows">
+			<span class="arrow next" data-strips-next></span>
+			<span class="arrow prev" data-strips-previous></span>
+		</div>
+			</div>
+</div>
+		</div></div>
+            
+        </div>
+        </div>
+            </div>
+            
+    </section>
+        </div>
+            </div>
+    </div>
+        
+    </section>
+    
+                                
+                <main id="g-main">
+                <div class="g-container">                                <div class="g-grid">                        
+
+        <div class="g-block size-100 bannerboxheight">
+             <div id="custom-2686-particle" class="g-content g-particle">            <div class="row" style="border-top: 1px solid #d7d7d7; border-bottom: 1px solid #d7d7d7;margin: 0px 10px 0px 10px; ">
+	<div class="col">
+		<a href="/index.php/prospective-students/forums/lsat-night" style="text-decoration: none;">
+			<div align="center" valign="middle">
+				<span class="bannerheadingfont">LSAT Night</span><br />
+				<span class="bannerbodyfont">Attend our next FREE LSAT forum.</span>
+			</div>
+		</a>
+	</div>
+	<div class="col">
+		<a href="https://webapp.sjcl.edu/OnlineApplication/default.aspx?LinkType=SA" style="text-decoration: none;">
+			<div align="center" valign="middle">
+				<span class="bannerheadingfont">Apply Online</span><br />
+				<span class="bannerbodyfont">The next classes start in August. Begin your application now.</span>
+			</div>
+		</a>
+	</div>
+	<div class="col">
+		<a href="/index.php/prospective-students/forums/tour-reservation" style="text-decoration: none;">
+			<div align="center" valign="middle">
+				<span class="bannerheadingfont">Schedule Your Tour</span><br />
+				<span class="bannerbodyfont">Make a reservation for a tour.</span>
+			</div>
+		</a>
+	</div>
+</div>
+            </div>
+        </div>
+            </div>
+            </div>
+        
+    </main>
+                                
+                <section id="g-extension" class="transparent">
+                <div class="g-container">                                <div class="g-grid">                        
+
+        <div class="g-block size-67">
+             <div class="g-content">
+                                    <div class="platform-content"><div class="moduletable ">
+						
+
+<div class="custom"  >
+	<div style="border-bottom: 1px solid #d7d7d7; padding-left: 10px;">
+    <a href="/index.php/prospective-students/blog" class="hometitle">SJCL Blog</a>
+    <p class="hometitletext">
+        <i>In-depth interviews with alumni, faculty, and staff of San Joaquin College of Law.</i>
+    </p>
+</div></div>
+		</div></div><div class="platform-content"><div class="moduletable ">
+						<div class="sprocket-lists" data-lists="221">
+	<ul class="sprocket-lists-container" data-lists-items>
+		<li class="active" data-lists-item>
+		<h4 class="sprocket-lists-title padding" data-lists-toggler>
+					Meet New American Legal Clinic’s Staff Attorney Jaspreet Klar				<span class="indicator"><span>+</span></span>	</h4>
+		<div class="sprocket-lists-item" data-lists-content>
+		<div class="sprocket-padding">
+						<img src="/images/stories/Prospective_Students/Recruitment_News/2019/Jaspreet Klar.png" class="sprocket-lists-image" alt="Meet New American Legal Clinic’s Staff Attorney Jaspreet Klar" />
+						Meet Jaspreet Klar, a UCLA and Southwestern Law School graduate and our New American Legal Clinic’s Staff Attorney. After several years of working with the County of Fresno, she is excited to join the SJCL community and make an impact representing some of the Central Valley’s most vulnerable residents. Learn more about Jaspreet and find out why she decided to step up to the plate and help people in their immigration matters.
+						<a href="/index.php/prospective-students/blog/2317-meet-jaspreet-klar" class="readon"><span>Read More</span></a>
+					</div>
+	</div>
+</li>
+<li data-lists-item>
+		<h4 class="sprocket-lists-title padding" data-lists-toggler>
+					Dressing for Success: Meet 3L Adam Awad				<span class="indicator"><span>+</span></span>	</h4>
+		<div class="sprocket-lists-item" data-lists-content>
+		<div class="sprocket-padding">
+						<img src="/images/stories/Prospective_Students/Recruitment_News/2019/Adam Awad.jpg" class="sprocket-lists-image" alt="Dressing for Success: Meet 3L Adam Awad" />
+						Meet Adam Awad, a third year student at San Joaquin College of Law and Pre-Law major from Fresno Pacific University. From a young age, he knew he wanted to become a defense attorney one day and help the people in his community who needed it most. Find out why Adam doesn’t look at the big picture when it comes to balancing work and school, how he became a Certified Law Student and why you’ll always see him wearing a suit and tie.
+						<a href="/index.php/prospective-students/blog/2220-dressing-for-success-meet-3l-adam-awad" class="readon"><span>Read More</span></a>
+					</div>
+	</div>
+</li>
+<li data-lists-item>
+		<h4 class="sprocket-lists-title padding" data-lists-toggler>
+					It Was Never About the Books: Libraries as Information Nexuses				<span class="indicator"><span>+</span></span>	</h4>
+		<div class="sprocket-lists-item" data-lists-content>
+		<div class="sprocket-padding">
+						<img src="/images/stories/Prospective_Students/Recruitment_News/2019/Mark Masters.jpg" class="sprocket-lists-image" alt="It Was Never About the Books: Libraries as Information Nexuses" />
+						It was never about the books; it was always about information. That is the hidden truth of all libraries. When the first Sumerians took up styli and began to engrave cuneiform on clay tablets, the library was born. Granted, it was not as we think of a library today.
+						<a href="/index.php/prospective-students/blog/2210-it-was-never-about-the-books-libraries-as-information-nexuses" class="readon"><span>Read More</span></a>
+					</div>
+	</div>
+</li>
+<li data-lists-item>
+		<h4 class="sprocket-lists-title padding" data-lists-toggler>
+					Meet New American Legal Clinic Director Linda Barreto				<span class="indicator"><span>+</span></span>	</h4>
+		<div class="sprocket-lists-item" data-lists-content>
+		<div class="sprocket-padding">
+						<img src="/images/stories/Prospective_Students/Recruitment_News/2019/Linda Barreto.jpg" class="sprocket-lists-image" alt="Meet New American Legal Clinic Director Linda Barreto" />
+						Meet Linda Barreto, a San Joaquin College of Law alumnae (Law ‘14), UC Merced graduate and our New American Legal Clinic Director. After taking her first case to court as a college sophomore, she decided to pursue her law degree and discovered her passion for helping people become U.S. citizens while she was in law school.
+						<a href="/index.php/prospective-students/blog/2172-meet-new-american-legal-clinic-director-linda-barreto" class="readon"><span>Read More</span></a>
+					</div>
+	</div>
+</li>
+	</ul>
+	<div class="sprocket-lists-nav">
+		<div class="sprocket-lists-pagination-hidden">
+			<ul>
+									    	<li class="active" data-lists-page="1"><span>1</span></li>
+									    	<li data-lists-page="2"><span>2</span></li>
+									    	<li data-lists-page="3"><span>3</span></li>
+									    	<li data-lists-page="4"><span>4</span></li>
+									    	<li data-lists-page="5"><span>5</span></li>
+									    	<li data-lists-page="6"><span>6</span></li>
+									    	<li data-lists-page="7"><span>7</span></li>
+						</ul>
+		</div>
+		<div class="spinner"></div>
+			</div>
+</div>
+		</div></div><div class="platform-content"><div class="moduletable ">
+						
+
+<div class="custom"  >
+	<div style="border-bottom: 1px solid #d7d7d7; padding-left: 10px;">
+    <a href="/index.php/news/sjcl-news" class="hometitle">News</a>
+    <p class="hometitletext">
+        <i>Good things happening in the SJCL community.</i>
+    </p>
+</div></div>
+		</div></div><div class="platform-content"><div class="moduletable ">
+						<div class="sprocket-lists" data-lists="105">
+	<ul class="sprocket-lists-container" data-lists-items>
+		<li class="active" data-lists-item>
+		<h4 class="sprocket-lists-title padding" data-lists-toggler>
+					Kayla Pace Wins SJCL Kharazi Book Scholarship				<span class="indicator"><span>+</span></span>	</h4>
+		<div class="sprocket-lists-item" data-lists-content>
+		<div class="sprocket-padding">
+						 Kayla Pace has lived at a hectic pace for the past three years. As a single mom involved in a<span class="roksprocket-ellipsis">…</span>						<a href="/index.php/sjcl-news-articles/20-sjcl-news/fresno-bar-bulletin/2497-kayla-pace-wins-sjcl-kharazi-book-scholarship" class="readon"><span>Read More</span></a>
+					</div>
+	</div>
+</li>
+<li data-lists-item>
+		<h4 class="sprocket-lists-title padding" data-lists-toggler>
+					A Golden Graduation				<span class="indicator"><span>+</span></span>	</h4>
+		<div class="sprocket-lists-item" data-lists-content>
+		<div class="sprocket-padding">
+						 The Honorable Oliver Wanger delivered the commencement address. A Golden GraduationAs it celebrates its 50th year, the 46th Graduating Class<span class="roksprocket-ellipsis">…</span>						<a href="/index.php/sjcl-news-articles/20-sjcl-news/fresno-bar-bulletin/2380-a-golden-graduation-2" class="readon"><span>Read More</span></a>
+					</div>
+	</div>
+</li>
+<li data-lists-item>
+		<h4 class="sprocket-lists-title padding" data-lists-toggler>
+					Welcome New Colleagues!				<span class="indicator"><span>+</span></span>	</h4>
+		<div class="sprocket-lists-item" data-lists-content>
+		<div class="sprocket-padding">
+						 Ten Bar Passers took their oaths as Officers of the Court at the 5th District Court of Appeal on June<span class="roksprocket-ellipsis">…</span>						<a href="/index.php/sjcl-news-articles/20-sjcl-news/fresno-bar-bulletin/2378-welcome-new-colleagues" class="readon"><span>Read More</span></a>
+					</div>
+	</div>
+</li>
+<li data-lists-item>
+		<h4 class="sprocket-lists-title padding" data-lists-toggler>
+					 SJCL Toasts 13 February Barpassers				<span class="indicator"><span>+</span></span>	</h4>
+		<div class="sprocket-lists-item" data-lists-content>
+		<div class="sprocket-padding">
+						 The February Barpassers pose for the traditional staircase shot. Back row (L to R): Kyle Zimmer, Nicolas Urgesi, Jorge Gallegos<span class="roksprocket-ellipsis">…</span>						<a href="/index.php/sjcl-news-articles/20-sjcl-news/fresno-bar-bulletin/2377-sjcl-toasts-13-february-barpassers" class="readon"><span>Read More</span></a>
+					</div>
+	</div>
+</li>
+	</ul>
+	<div class="sprocket-lists-nav">
+		<div class="sprocket-lists-pagination-hidden">
+			<ul>
+									    	<li class="active" data-lists-page="1"><span>1</span></li>
+									    	<li data-lists-page="2"><span>2</span></li>
+									    	<li data-lists-page="3"><span>3</span></li>
+									    	<li data-lists-page="4"><span>4</span></li>
+									    	<li data-lists-page="5"><span>5</span></li>
+									    	<li data-lists-page="6"><span>6</span></li>
+									    	<li data-lists-page="7"><span>7</span></li>
+									    	<li data-lists-page="8"><span>8</span></li>
+						</ul>
+		</div>
+		<div class="spinner"></div>
+			</div>
+</div>
+		</div></div><div class="platform-content"><div class="moduletable ">
+						
+
+<div class="custom"  >
+	<div style="border-bottom: 1px solid #d7d7d7; padding-left: 10px;">
+    <a href="/index.php/on-the-move" class="hometitle">On the Move</a>
+    <p class="hometitletext">
+        <i>The latest career changes.</i>
+    </p>
+</div></div>
+		</div></div><div class="platform-content"><div class="moduletable ">
+						<div class="sprocket-lists" data-lists="109">
+	<ul class="sprocket-lists-container" data-lists-items>
+		<li class="active" data-lists-item>
+		<h4 class="sprocket-lists-title padding" data-lists-toggler>
+					Osmundo J. Arguello (Law ’18)				<span class="indicator"><span>+</span></span>	</h4>
+		<div class="sprocket-lists-item" data-lists-content>
+		<div class="sprocket-padding">
+						Osmundo Arguello is now an Associate Attorney at the Law Office of Jeremy Frost.					</div>
+	</div>
+</li>
+<li data-lists-item>
+		<h4 class="sprocket-lists-title padding" data-lists-toggler>
+					Jaskaran S. Gill (Law ’17) 				<span class="indicator"><span>+</span></span>	</h4>
+		<div class="sprocket-lists-item" data-lists-content>
+		<div class="sprocket-padding">
+						Jaskaran Gill is now an Associate Attorney with Bradford Barthel, LLP.					</div>
+	</div>
+</li>
+<li data-lists-item>
+		<h4 class="sprocket-lists-title padding" data-lists-toggler>
+					Erica M. Camarena (Law ’02)				<span class="indicator"><span>+</span></span>	</h4>
+		<div class="sprocket-lists-item" data-lists-content>
+		<div class="sprocket-padding">
+						Erica Camarena is now Chief Assistant City Attorney for the City of Fresno.					</div>
+	</div>
+</li>
+<li data-lists-item>
+		<h4 class="sprocket-lists-title padding" data-lists-toggler>
+					Mario A. Gonzalez (Law ’16) 				<span class="indicator"><span>+</span></span>	</h4>
+		<div class="sprocket-lists-item" data-lists-content>
+		<div class="sprocket-padding">
+						Mario Gonzalez is now an Associate Attorney at Michael Sullivan and Associates LLP.					</div>
+	</div>
+</li>
+	</ul>
+	<div class="sprocket-lists-nav">
+		<div class="sprocket-lists-pagination-hidden">
+			<ul>
+									    	<li class="active" data-lists-page="1"><span>1</span></li>
+									    	<li data-lists-page="2"><span>2</span></li>
+									    	<li data-lists-page="3"><span>3</span></li>
+									    	<li data-lists-page="4"><span>4</span></li>
+									    	<li data-lists-page="5"><span>5</span></li>
+									    	<li data-lists-page="6"><span>6</span></li>
+									    	<li data-lists-page="7"><span>7</span></li>
+									    	<li data-lists-page="8"><span>8</span></li>
+						</ul>
+		</div>
+		<div class="spinner"></div>
+			</div>
+</div>
+		</div></div>
+            
+        </div>
+        </div>
+                    
+
+        <div class="g-block size-33 careers">
+             <div class="g-content">
+                                    <div class="platform-content"><div class="moduletable ">
+						
+
+<div class="custom"  >
+	<div style="border-bottom: 1px solid #d7d7d7; padding-left: 10px;">
+    <a href="/index.php/about/celebrating-50-years" class="hometitle">Alumni a Day</a>
+    <p class="hometitletext">
+        <i>Celebrating an SJCL Alumni a Day Through 2019</i>
+    </p>
+</div></div>
+		</div></div><div class="platform-content"><div class="moduletable ">
+						<div class="sprocket-lists" data-lists="261">
+	<ul class="sprocket-lists-container" data-lists-items>
+		<li class="active" data-lists-item>
+		<h4 class="sprocket-lists-title" data-lists-toggler>
+					Lisa (Craig) Flores - Class of 2013 - Fresno County Counsel					</h4>
+		<div class="sprocket-lists-item" data-lists-content>
+		<div class="sprocket-padding">
+						<img src="/cache/mod_roksprocket/590c276d5dc7ea12ac4dcf26c55aecfb_0_120.jpg" class="sprocket-lists-image" alt="Lisa (Craig) Flores - Class of 2013 - Fresno County Counsel" />
+						<p>Lisa wanted to have a career that would be stimulating and provide her with an opportunity to make a positive difference in her community. In her role as Deputy County Counsel she practices Dependency law and works alongside several fellow SJCL grads. Lisa likes the fact that the field of law provides opportunities to learn something new every day. She says the unique status of her alma mater as a small but mighty law school makes for terrific, and rare, comradery among peers. “I don’t think you see this level of reception and co-operation among legal communities a lot.”</p>					</div>
+	</div>
+</li>
+	</ul>
+	<div class="sprocket-lists-nav">
+		<div class="sprocket-lists-pagination-hidden">
+			<ul>
+									    	<li class="active" data-lists-page="1"><span>1</span></li>
+						</ul>
+		</div>
+		<div class="spinner"></div>
+			</div>
+</div>
+		</div></div><div class="platform-content"><div class="moduletable events">
+						
+
+<div class="customevents"  >
+	<div style="border-bottom: 1px solid #d7d7d7; padding-left: 10px;">
+    <a href="/index.php/prospective-students/forums/law-school-forums" class="hometitle">Events</a>
+    <p class="hometitletext">
+    	<i>Opportunities to get involved.</i>
+    </p>
+</div></div>
+		</div></div><div class="platform-content"><div class="moduletable events">
+						<div class="sprocket-lists" data-lists="106">
+	<ul class="sprocket-lists-container" data-lists-items>
+		<li class="active" data-lists-item>
+		<h4 class="sprocket-lists-title padding" data-lists-toggler>
+					Rememixer • Fri., October 18 • 4-9p				<span class="indicator"><span>+</span></span>	</h4>
+		<div class="sprocket-lists-item" data-lists-content>
+		<div class="sprocket-padding">
+						 Friday, October 18, 2019 from 4:00 - 9:00p San Joaquin College of Law 901 5th Street, Clovis CA 93612 You are cordially invited to San Joaquin<span class="roksprocket-ellipsis">…</span>						<a href="/index.php/sjcl-events/2510-rememixer-fri-october-18-4-9p" class="readon"><span>Read More</span></a>
+					</div>
+	</div>
+</li>
+<li data-lists-item>
+		<h4 class="sprocket-lists-title padding" data-lists-toggler>
+					LSAT Night • Tues., Oct. 8 • 7-9pm				<span class="indicator"><span>+</span></span>	</h4>
+		<div class="sprocket-lists-item" data-lists-content>
+		<div class="sprocket-padding">
+						Join us for a free session on the Law School Admission Test (LSAT) led by SJCL Dean Jan Pearson to develop strategies to approach the<span class="roksprocket-ellipsis">…</span>						<a href="/index.php/sjcl-events/318-lsat-night-wed-march-27-7-9pm" class="readon"><span>Read More</span></a>
+					</div>
+	</div>
+</li>
+<li data-lists-item>
+		<h4 class="sprocket-lists-title padding" data-lists-toggler>
+					Law School 101 • Wed., October 23 • 7-9p				<span class="indicator"><span>+</span></span>	</h4>
+		<div class="sprocket-lists-item" data-lists-content>
+		<div class="sprocket-padding">
+						Our free informational monthly law school forum will help prospective students learn about law school, from courses offered to admission requirements. At these forums you<span class="roksprocket-ellipsis">…</span>						<a href="/index.php/sjcl-events/2435-law-school-101-wed-october-23-7-9p" class="readon"><span>Read More</span></a>
+					</div>
+	</div>
+</li>
+<li data-lists-item>
+		<h4 class="sprocket-lists-title padding" data-lists-toggler>
+					Veterans to Law School • Thurs., Nov. 7 • 6:30				<span class="indicator"><span>+</span></span>	</h4>
+		<div class="sprocket-lists-item" data-lists-content>
+		<div class="sprocket-padding">
+						Clovis Veterans Memorial District and San Joaquin College of law have joined forces to bring together a panel of Veterans who are current law school<span class="roksprocket-ellipsis">…</span>						<a href="/index.php/sjcl-events/1288-veterans-forum-thurs-nov-9-7-9p" class="readon"><span>Read More</span></a>
+					</div>
+	</div>
+</li>
+	</ul>
+	<div class="sprocket-lists-nav">
+		<div class="sprocket-lists-pagination-hidden">
+			<ul>
+									    	<li class="active" data-lists-page="1"><span>1</span></li>
+						</ul>
+		</div>
+		<div class="spinner"></div>
+			</div>
+</div>
+		</div></div><div class="platform-content"><div class="moduletable ">
+						
+
+<div class="custom"  >
+	<div style="border-bottom: 1px solid #d7d7d7; padding-left: 10px;">
+    <a href="/index.php/careers/a" class="hometitle">Careers</a>
+    <p class="hometitletext">
+        <i>Obtain your legal education in a region where the job market for attorneys is expanding.</i>
+    </p>
+</div></div>
+		</div></div><div class="platform-content"><div class="moduletable ">
+						<div class="sprocket-lists" data-lists="248">
+	<ul class="sprocket-lists-container" data-lists-items>
+		<li class="active" data-lists-item>
+		<h4 class="sprocket-lists-title padding" data-lists-toggler>
+					Junior Level Associate - Wood, Smith, Henning & Berman (Fresno)				<span class="indicator"><span>+</span></span>	</h4>
+		<div class="sprocket-lists-item" data-lists-content>
+		<div class="sprocket-padding">
+						Wood, Smith, Henning &amp; Berman, a full service litigation firm with twenty six offices nationwide seeks a full-time Junior Level<span class="roksprocket-ellipsis">…</span>						<a href="/index.php/jobs/15-attorney/2539-junior-level-associate-wood-smith-henning-berman-fresno-3" class="readon"><span>Read More</span></a>
+					</div>
+	</div>
+</li>
+<li data-lists-item>
+		<h4 class="sprocket-lists-title padding" data-lists-toggler>
+					Litigation and Transaction Attorney – Houk & Hornburg, Inc. (Visalia)				<span class="indicator"><span>+</span></span>	</h4>
+		<div class="sprocket-lists-item" data-lists-content>
+		<div class="sprocket-padding">
+						Houk &amp; Hornburg, Inc., a busy boutique law firm located in Visalia, California, has an immediate opening for a partnership-track<span class="roksprocket-ellipsis">…</span>						<a href="/index.php/jobs/15-attorney/2538-litigation-and-transaction-attorney-houk-hornburg-inc-visalia" class="readon"><span>Read More</span></a>
+					</div>
+	</div>
+</li>
+<li data-lists-item>
+		<h4 class="sprocket-lists-title padding" data-lists-toggler>
+					Civil Litigation Attorney - Borton Petrini, LLP (Fresno)				<span class="indicator"><span>+</span></span>	</h4>
+		<div class="sprocket-lists-item" data-lists-content>
+		<div class="sprocket-padding">
+						Borton Petrini, LLP, a dynamic statewide A-V rated law firm located in Fresno has an immediate opening for an associate<span class="roksprocket-ellipsis">…</span>						<a href="/index.php/jobs/15-attorney/2537-civil-litigation-attorney-borton-petrini-llp-fresno" class="readon"><span>Read More</span></a>
+					</div>
+	</div>
+</li>
+<li data-lists-item>
+		<h4 class="sprocket-lists-title padding" data-lists-toggler>
+					Staff Attorney I/II - Superior Court of the State of California County of Kings (Hanford)				<span class="indicator"><span>+</span></span>	</h4>
+		<div class="sprocket-lists-item" data-lists-content>
+		<div class="sprocket-padding">
+						The Superior Court of California, County of Kings, is seeking to fill one Staff Attorney I/II. The level of classification<span class="roksprocket-ellipsis">…</span>						<a href="/index.php/jobs/15-attorney/2527-staff-attorney-i-ii-superior-court-of-the-state-of-california-county-of-kings-hanford" class="readon"><span>Read More</span></a>
+					</div>
+	</div>
+</li>
+	</ul>
+	<div class="sprocket-lists-nav">
+		<div class="sprocket-lists-pagination-hidden">
+			<ul>
+									    	<li class="active" data-lists-page="1"><span>1</span></li>
+									    	<li data-lists-page="2"><span>2</span></li>
+									    	<li data-lists-page="3"><span>3</span></li>
+									    	<li data-lists-page="4"><span>4</span></li>
+									    	<li data-lists-page="5"><span>5</span></li>
+									    	<li data-lists-page="6"><span>6</span></li>
+									    	<li data-lists-page="7"><span>7</span></li>
+									    	<li data-lists-page="8"><span>8</span></li>
+									    	<li data-lists-page="9"><span>9</span></li>
+									    	<li data-lists-page="10"><span>10</span></li>
+									    	<li data-lists-page="11"><span>11</span></li>
+									    	<li data-lists-page="12"><span>12</span></li>
+									    	<li data-lists-page="13"><span>13</span></li>
+									    	<li data-lists-page="14"><span>14</span></li>
+									    	<li data-lists-page="15"><span>15</span></li>
+									    	<li data-lists-page="16"><span>16</span></li>
+									    	<li data-lists-page="17"><span>17</span></li>
+									    	<li data-lists-page="18"><span>18</span></li>
+									    	<li data-lists-page="19"><span>19</span></li>
+						</ul>
+		</div>
+		<div class="spinner"></div>
+			</div>
+</div>
+		</div></div>
+            
+        </div>
+        </div>
+            </div>
+                            <div class="g-grid">                        
+
+        <div class="g-block size-100">
+             <div class="g-content">
+                                    <div class="platform-content"><div class="moduletable ">
+						
+
+<div class="custom"  >
+	<div class="row" style="border-top: 1px solid #d7d7d7;padding: 0px; margin-bottom: -10px;">
+	<div class="col">
+		<a href="/index.php/make-a-gift" style="text-decoration: none;">
+			<div align="center" valign="middle">
+				<span class="bannerheadingfont">Support Your School</span><br />
+				<span class="bannerbodyfont">Your investment in SJCL positively impacts our students.</span>
+			</div>
+		</a>
+	</div>
+	<div class="col">
+		<a href="/index.php/nalc" style="text-decoration: none;">
+			<div align="center" valign="middle">
+				<span class="bannerheadingfont">New American Legal Clinic</span><br />
+				<span class="bannerbodyfont">NALC is here to assist you with immigrating legally. </span>
+			</div>
+		</a>
+	</div>
+</div></div>
+		</div></div>
+            
+        </div>
+        </div>
+            </div>
+            </div>
+        
+    </section>
+                                
+                <footer id="g-footer">
+                <div class="g-container">                                <div class="g-grid">                        
+
+        <div class="g-block size-100 bottom-menu">
+             <div class="g-content">
+                                    <div class="platform-content"><div class="moduletable ">
+						
+
+<div class="custom"  >
+	<div class="L_display" style="text-align:center;width: 100%; border-top: 1px solid #d7d7d7; padding-top: 20px;">
+    <a href="/index.php/about"><span class="bmenu">ABOUT</span></a> •
+    <a href="/index.php/it-services"><span class="bmenu">IT SERVICES</span></a> •
+    <a href="/index.php/inter-alia"><span class="bmenu">INTER ALIA</span></a> •
+    <a href="/index.php/contact-us"><span class="bmenu">CONTACT US</span></a> •
+    <a href="/index.php/right-to-know"><span class="bmenu">RIGHT TO KNOW</span></a>
+<p> </p>
+    <p><span class="copyright">©
+        <script language="javascript" type="text/javascript">
+            var today = new Date()
+             var year = today.getFullYear()
+             document.write(year)
+        </script> San Joaquin College of Law</span> • <span class="copyright">901 5th Street, Clovis, CA 93612</span> • 
+        <a href="tel:5593232100" style="font-weight: 300;"><span class="copyright">559/323-2100</span></a> • 
+        <a href="mailto:info@sjcl.edu"><span class="copyright">info@sjcl.edu</span></a>
+    </p>
+</div>
+
+<div class="M_display" style="text-align:center;width: 100%;border-top: 1px solid #d7d7d7; padding-top: 20px;">
+    <a href="/index.php/about"><span class="bmenu">ABOUT</span></a> •
+    <a href="/index.php/it-services"><span class="bmenu">IT SERVICES</span></a> •
+    <a href="/index.php/inter-alia"><span class="bmenu">INTER ALIA</span></a> •
+    <a href="/index.php/contact-us"><span class="bmenu">CONTACT US</span></a> •
+    <a href="/index.php/right-to-know"><span class="bmenu">RIGHT TO KNOW</span></a>
+<p> </p>
+    <p><span class="copyright">©
+        <script language="javascript" type="text/javascript">
+            var today = new Date()
+             var year = today.getFullYear()
+             document.write(year)
+        </script> San Joaquin College of Law</span> • <span class="copyright">901 5th Street, Clovis, CA 93612</span> • 
+        <a href="tel:5593232100" style="font-weight: 300;"><span class="copyright">559/323-2100</span></a> • 
+        <a href="mailto:info@sjcl.edu"><span class="copyright">info@sjcl.edu</span></a>
+    </p>
+</div>
+
+<div class="S_display" style="text-align:center;width: 100%;border-top: 1px solid #d7d7d7; padding-top: 20px;">
+    <a href="/index.php/about"><span class="bmenu">ABOUT</span></a> •
+    <a href="/index.php/it-services"><span class="bmenu">IT SERVICES</span></a> •
+    <a href="/index.php/inter-alia"><span class="bmenu">INTER ALIA</span></a><br />
+    <a href="/index.php/contact-us"><span class="bmenu">CONTACT US</span></a> •
+    <a href="/index.php/right-to-know"><span class="bmenu">RIGHT TO KNOW</span></a>
+<p> </p>
+    <p><span class="copyright">©
+        <script language="javascript" type="text/javascript">
+            var today = new Date()
+             var year = today.getFullYear()
+             document.write(year)
+        </script> San Joaquin College of Law</span> • <span class="copyright">901 5th Street, Clovis, CA 93612</span><br />
+        <a href="tel:5593232100" style="font-weight: 300;"><span class="copyright">559/323-2100</span></a> • 
+        <a href="mailto:info@sjcl.edu"><span class="copyright">info@sjcl.edu</span></a>
+    </p>
+</div>
+
+<div class="XS_display" style="text-align:center;width: 100%;border-top: 1px solid #d7d7d7; padding-top: 20px;" >
+    <a href="/index.php/about"><span class="bmenu">ABOUT</span></a> •
+    <a href="/index.php/it-services"><span class="bmenu">IT SERVICES</span></a> •
+    <a href="/index.php/inter-alia"><span class="bmenu">INTER ALIA</span></a><br />
+    <a href="/index.php/contact-us"><span class="bmenu">CONTACT US</span></a> •
+    <a href="/index.php/right-to-know"><span class="bmenu">RIGHT TO KNOW</span></a>
+<p> </p>
+    <p><span class="copyright">©
+        <script language="javascript" type="text/javascript">
+            var today = new Date()
+             var year = today.getFullYear()
+             document.write(year)
+        </script> San Joaquin College of Law</span><br />
+        <span class="copyright">901 5th Street, Clovis, CA 93612</span><br />
+        <a href="tel:5593232100" style="font-weight: 300;"><span class="copyright">559/323-2100</span></a> •
+        <a href="mailto:info@sjcl.edu"><span class="copyright">info@sjcl.edu</span></a>
+    </p>
+</div></div>
+		</div></div>
+            
+        </div>
+        </div>
+            </div>
+            </div>
+        
+    </footer>
+            
+                        
+
+        </div>
+                    
+
+                        <script type="text/javascript" src="/media/gantry5/assets/js/main.js"></script>
+    
+
+    
+
+        
+    </body>
+</html>
