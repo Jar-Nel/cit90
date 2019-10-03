@@ -50,5 +50,5 @@ func echo2(args []string){
 }
 
 func echo3(args []string){
-	fmt.Println(strings.Join(os.Args[1:], " "))
+	fmt.Println(strings.Join(args[1:], " "))
 }
