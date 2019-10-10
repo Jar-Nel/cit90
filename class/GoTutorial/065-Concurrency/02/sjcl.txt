@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="content/images/SJCL_minimal.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+
+    <table id="PageTable" cellpadding="0" cellspacing="0" border="0" style="width:100%;height:90%;">
+        <tr>
+            <td align="center" valign="middle" height="100%">
+                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td height="450px" align="center" background="content/images/sanjoaquin.jpg" bgcolor="#002147" style="background-repeat: no-repeat; background-position:center;">
+                            <table border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td>
+                                        <table border="0" cellspacing="0" cellpadding="0" width="160px">
+                                            <tr>
+                                                <td style="background:url('content/images/body-tl.png');"><div style="height:10px; width:10px; overflow:hidden;">&nbsp;</div></td>
+                                                <td style="background:url('content/images/body-t.png');"><div style="height:10px; overflow:hidden;">&nbsp;</div></td>
+                                                <td style="background:url('content/images/body-tr.png');"><div style="height:10px; width:10px; overflow:hidden;">&nbsp;</div></td>
+                                            </tr>
+                                            <tr>
+                                                <td width="10px" style="background:url('content/images/body-l.png');"><div style="width:10px; overflow:hidden;">&nbsp;</div></td>
+                                                <td valign="top" height="250px" style="background:url('content/images/page-bg.png');">
+                                                    <table cellpadding="0" cellspacing="0" border="0" style="width: 100%">
+                                                        <tr style="height:48px;">
+                                                            <td align="center" valign="center" class="bodyHeader">Students</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="bodyLink" align="left">
+                                                                &nbsp;•&nbsp;<a target="_top" href="https://sts.sjcl.edu/adfs/ls/?cbcxt=&popupui=&vv=&username=&mkt=&lc=1033&wfresh=&wa=wsignin1.0&wtrealm=urn:federation:MicrosoftOnline&wctx=wa%3Dwsignin1.0%26rpsnv%3D4%26ct%3D1429569460%26rver%3D6.4.6456.0%26wp%3DMCMBI%26wreply%3Dhttps:%252F%252Fportal.office.com%252Flanding.aspx%253Ftarget%253D%25252fdefault.aspx%26lc%3D1033%26id%3D501392%26bk%3D1429569460%26LoginOptions%3D3">Office 365</a><br />
+                                                                &nbsp;•&nbsp;<a target="_top" href="https://webapp.sjcl.edu/FSE/CourseList">SJCL FSE</a><br />
+                                                                &nbsp;•&nbsp;<a target="_top" href="https://webapp.sjcl.edu/WebContent/util/login.aspx">Student Resources</a><br />
+                                                                &nbsp;•&nbsp;<a target="_top" href="https://sw.sjcl.edu/studsect.cfm">Student Portal</a><br />
+                                                                &nbsp;•&nbsp;<a target="_top" href="https://sts.sjcl.edu/adfs/ls/?wa=wsignin1.0&wtrealm=urn:federation:MicrosoftOnline&wctx=wa%3Dwsignin1.0%26rpsnv%3D4%26ct%3D1429569993%26rver%3D6.6.6556.0%26wp%3DMBI_SSL%26wreply%3Dhttps:%252F%252Foutlook.office365.com%252Fowa%252F%253Frealm%253Dstudent.sjcl.edu%2526authRedirect%253Dtrue%26id%3D260563%26whr%3Dstudent.sjcl.edu%26CBCXT%3Dout#path=/mail">Student Email</a><br />
+                                                                <br /><br />
+                                                                &nbsp;•&nbsp;<a target="_top" href="http://207.67.203.69/S10013">Library Catalog</a>
+                                                                <br /><br />
+                                                                &nbsp;•&nbsp;<a target="_top" href="http://www.sjcl.edu/index.php/law-jobs/jobssjcl">Job Listings</a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td width="10px" style="background:url('content/images/body-r.png');"><div style="width:10px; overflow:hidden;">&nbsp;</div></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="background:url('content/images/body-bl.png');"><div style="height:10px; width:10px; overflow:hidden;">&nbsp;</div></td>
+                                                <td style="background:url('content/images/body-b.png');"><div style="height:10px; overflow:hidden;">&nbsp;</div></td>
+                                                <td style="background:url('content/images/body-br.png');"><div style="height:10px; width:10px; overflow:hidden;">&nbsp;</div></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border="0" cellspacing="0" cellpadding="0" width="160px">
+                                            <tr>
+                                                <td style="background:url('content/images/body-tl.png');"><div style="height:10px; width:10px; overflow:hidden;">&nbsp;</div></td>
+                                                <td style="background:url('content/images/body-t.png');"><div style="height:10px; overflow:hidden;">&nbsp;</div></td>
+                                                <td style="background:url('content/images/body-tr.png');"><div style="height:10px; width:10px; overflow:hidden;">&nbsp;</div></td>
+                                            </tr>
+                                            <tr>
+                                                <td width="10px" style="background:url('content/images/body-l.png');"><div style="width:10px; overflow:hidden;">&nbsp;</div></td>
+                                                <td valign="top" height="250px" style="background:url('content/images/page-bg.png');">
+                                                    <table cellpadding="0" cellspacing="0" border="0" style="width: 100%">
+                                                        <tr style="height:48px;">
+                                                            <td align="center" valign="center" class="bodyHeader">Alumni</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="bodyLink" align="left">
+                                                                &nbsp;•&nbsp;<a target="_top" href="http://www.sjcl.edu/index.php/alumni/alumni-profiles">Alumni Pages</a><br />
+                                                                &nbsp;•&nbsp;<a target="_top" href="https://sw.sjcl.edu/alumsect.cfm">Alumni Portal</a><br />
+                                                                &nbsp;•&nbsp;<a target="_top" href="https://sts.sjcl.edu/adfs/ls/?wa=wsignin1.0&wtrealm=urn:federation:MicrosoftOnline&wctx=wa%3Dwsignin1.0%26rpsnv%3D4%26ct%3D1429569993%26rver%3D6.6.6556.0%26wp%3DMBI_SSL%26wreply%3Dhttps:%252F%252Foutlook.office365.com%252Fowa%252F%253Frealm%253Dalumni.sjcl.edu%2526authRedirect%253Dtrue%26id%3D260563%26whr%3Dalumni.sjcl.edu%26CBCXT%3Dout#path=/mail">Alumni Email</a>
+                                                                <br /><br />
+                                                                &nbsp;•&nbsp;<a target="_top" href="http://www.sjcl.edu/index.php/law-jobs/a">Job Listings</a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td width="10px" style="background:url('content/images/body-r.png');"><div style="width:10px; overflow:hidden;">&nbsp;</div></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="background:url('content/images/body-bl.png');"><div style="height:10px; width:10px; overflow:hidden;">&nbsp;</div></td>
+                                                <td style="background:url('content/images/body-b.png');"><div style="height:10px; overflow:hidden;">&nbsp;</div></td>
+                                                <td style="background:url('content/images/body-br.png');"><div style="height:10px; width:10px; overflow:hidden;">&nbsp;</div></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border="0" cellspacing="0" cellpadding="0" width="160px">
+                                            <tr>
+                                                <td style="background:url('content/images/body-tl.png');"><div style="height:10px; width:10px; overflow:hidden;">&nbsp;</div></td>
+                                                <td style="background:url('content/images/body-t.png');"><div style="height:10px; overflow:hidden;">&nbsp;</div></td>
+                                                <td style="background:url('content/images/body-tr.png');"><div style="height:10px; width:10px; overflow:hidden;">&nbsp;</div></td>
+                                            </tr>
+                                            <tr>
+                                                <td width="10px" style="background:url('content/images/body-l.png');"><div style="width:10px; overflow:hidden;">&nbsp;</div></td>
+                                                <td valign="top" height="250px" style="background:url('content/images/page-bg.png');">
+                                                    <table cellpadding="0" cellspacing="0" border="0" style="width: 100%">
+                                                        <tr style="height:48px;">
+                                                            <td align="center" valign="center" class="bodyHeader">Staff</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="bodyLink" align="left">
+                                                                &nbsp;•&nbsp;<a target="_top" href="https://sp.sjcl.edu/sites/staff/_layouts/15/start.aspx#/SitePages/Home.aspx">Staff SharePoint</a><br />
+                                                                &nbsp;•&nbsp;<a target="_top" href="https://mx.sjcl.edu/owa">Staff Email</a><br />
+                                                                <br />
+                                                                &nbsp;•&nbsp;<a target="_top" href="https://sp.sjcl.edu/sites/partners/_layouts/15/start.aspx#/SitePages/Home.aspx">SJCL Partners</a><br />
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td width="10px" style="background:url('content/images/body-r.png');"><div style="width:10px; overflow:hidden;">&nbsp;</div></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="background:url('content/images/body-bl.png');"><div style="height:10px; width:10px; overflow:hidden;">&nbsp;</div></td>
+                                                <td style="background:url('content/images/body-b.png');"><div style="height:10px; overflow:hidden;">&nbsp;</div></td>
+                                                <td style="background:url('content/images/body-br.png');"><div style="height:10px; width:10px; overflow:hidden;">&nbsp;</div></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border="0" cellspacing="0" cellpadding="0" width="160px">
+                                            <tr>
+                                                <td style="background:url('content/images/body-tl.png');"><div style="height:10px; width:10px; overflow:hidden;">&nbsp;</div></td>
+                                                <td style="background:url('content/images/body-t.png');">
+                                                    <div style="height:10px; overflow:hidden;">&nbsp;</div>
+                                                </td>
+                                                <td style="background:url('content/images/body-tr.png');"><div style="height:10px; width:10px; overflow:hidden;">&nbsp;</div></td>
+                                            </tr>
+                                            <tr>
+                                                <td width="10px" style="background:url('content/images/body-l.png');"><div style="width:10px; overflow:hidden;">&nbsp;</div></td>
+                                                <td valign="top" height="250px" style="background:url('content/images/page-bg.png');">
+                                                    <table cellpadding="0" cellspacing="0" border="0" style="width: 100%">
+                                                        <tr style="height:48px;">
+                                                            <td align="center" valign="center" class="bodyHeader">Faculty</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="bodyLink" align="left">
+                                                                &nbsp;•&nbsp;<a target="_top" href="https://webapp.sjcl.edu/FSE/CourseList">SJCL FSE</a><br />
+                                                                &nbsp;•&nbsp;<a target="_top" href="https://sw.sjcl.edu/facsect.cfm">Faculty Portal</a><br />
+                                                                &nbsp;•&nbsp;<a target="_top" href="https://mx.sjcl.edu/owa">Faculty Email</a><br />
+                                                                &nbsp;•&nbsp;<a target="_top" href="https://sts.sjcl.edu/adfs/ls/?wa=wsignin1.0&wtrealm=urn:federation:MicrosoftOnline&wctx=wa%3Dwsignin1.0%26rpsnv%3D4%26ct%3D1429569993%26rver%3D6.6.6556.0%26wp%3DMBI_SSL%26wreply%3Dhttps:%252F%252Foutlook.office365.com%252Fowa%252F%253Frealm%253Dfaculty.sjcl.edu%2526authRedirect%253Dtrue%26id%3D260563%26whr%3Dfaculty.sjcl.edu%26CBCXT%3Dout#path=/mail">Adjunct Email</a><br />
+
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td width="10px" style="background:url('content/images/body-r.png');"><div style="width:10px; overflow:hidden;">&nbsp;</div></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="background:url('content/images/body-bl.png');"><div style="height:10px; width:10px; overflow:hidden;">&nbsp;</div></td>
+                                                <td style="background:url('content/images/body-b.png');"><div style="height:10px; overflow:hidden;">&nbsp;</div></td>
+                                                <td style="background:url('content/images/body-br.png');"><div style="height:10px; width:10px; overflow:hidden;">&nbsp;</div></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border="0" cellspacing="0" cellpadding="0" width="160px">
+                                            <tr>
+                                                <td style="background:url('content/images/body-tl.png');"><div style="height:10px; width:10px; overflow:hidden;">&nbsp;</div></td>
+                                                <td style="background:url('content/images/body-t.png');"><div style="height:10px; overflow:hidden;">&nbsp;</div></td>
+                                                <td style="background:url('content/images/body-tr.png');"><div style="height:10px; width:10px; overflow:hidden;">&nbsp;</div></td>
+                                            </tr>
+                                            <tr>
+                                                <td width="10px" style="background:url('content/images/body-l.png');"><div style="width:10px; overflow:hidden;">&nbsp;</div></td>
+                                                <td valign="top" height="250px" style="background:url('content/images/page-bg.png');">
+                                                    <table cellpadding="0" cellspacing="0" border="0" style="width: 100%">
+                                                        <tr style="height:48px;">
+                                                            <td align="center" valign="center" class="bodyHeader">Clinics</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="bodyLink" align="left">
+                                                                &nbsp;•&nbsp;<a target="_top" href="https://sp.sjcl.edu/sites/nalc/_layouts/15/start.aspx#/">NALC</a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td width="10px" style="background:url('content/images/body-r.png');"><div style="width:10px; overflow:hidden;">&nbsp;</div></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="background:url('content/images/body-bl.png');"><div style="height:10px; width:10px; overflow:hidden;">&nbsp;</div></td>
+                                                <td style="background:url('content/images/body-b.png');"><div style="height:10px; overflow:hidden;">&nbsp;</div></td>
+                                                <td style="background:url('content/images/body-br.png');"><div style="height:10px; width:10px; overflow:hidden;">&nbsp;</div></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="10px" background="content/images/body-b.png"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

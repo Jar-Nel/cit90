@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<!--[if lt IE 7 ]>
+<html lang="en-AU" class="ie6 no-js">    <![endif]-->
+<!--[if IE 7 ]>
+<html lang="en-AU" class="ie7 no-js">    <![endif]-->
+<!--[if IE 8 ]>
+<html lang="en-AU" class="ie8 no-js">    <![endif]-->
+<!--[if IE 9 ]>
+<html lang="en-AU" class="ie9 no-js">    <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en-AU" class="no-js"><!--<![endif]-->
+<head>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"98fcca5c35","applicationID":"21023010","transactionName":"elxdEEFWXlpWR00MXl1WQEtbVl9T","queueTime":0,"applicationTime":105,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  <meta name="google-site-verification" content="ElWu_73bfZc6KNBz9zMj5KnNA8U7kj9r3hPoojmIZqc">
+  <title>GOV.AU</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <script>
+    (function (h) {
+    h.className = h.className.replace('no-js', 'js')
+    })(document.documentElement)
+  </script>
+  <!--[if lt IE 9]>
+  <script type="text/javascript"
+          src="//cdnjs.cloudflare.com/ajax/libs/corysimmons-selectivizr2/1.0.8/selectivizr2.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+  <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js'></script>
+  <![endif]-->
+
+  <link rel="shortcut icon" type="image/x-icon" href="favico.ico">
+  <script src="js/fonts-5cfe6bc8b908837bdc7fec9293f3218caf522af3f672710c8414a04d99165c0a.js" data-turbolinks-track="reload" async="async"></script>
+  <link rel="stylesheet" media="all" href="css/application-a3be3cb88462fa9da8f5070dff69d461af44aef9098279b1873e41c0b83fa786.css" data-turbolinks-track="reload">
+  <script src="js/application-a94daa5c647cc7d06c11b44b120c58ec28337733a939f1cd8d4fc7b8419d1ce9.js" data-turbolinks-track="reload" async="async"></script>
+</head>
+
+<body data-ga-id="UA-81570106-1">
+<noscript>
+<iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-NDZ4WX" style="display:none;visibility:hidden" width="0"></iframe>
+</noscript>
+<script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NDZ4WX');
+</script>
+
+<div class="skip-to">
+<a href="#content">
+Skip to main content
+</a>
+</div>
+<header role="banner">
+
+<section>
+<!-- /.prerelease-govau--header.home -->
+<div class="wrapper">
+<div class="home-header-content">
+<div class="govau--logo home">
+<a href="">
+<img alt="GOV.AU crest logo" src="img/gov-au-white-2x-49a1845dae751560e8590a6cb8c073771a374f3dc9a35c1bd5f2028f08194446.png">
+</a>
+</div>
+<div class="homeintro">
+<h1 class="is-visuallyhidden">
+GOV.AU homepage
+</h1>
+<p>
+A listing of websites for governments in&nbsp;Australia
+</p>
+</div>
+<div class="feedback">
+<a class="button--feedback" role="button" href="mailto:info@dta.gov.au">Give feedback</a>
+</div>
+
+</div>
+</div>
+<div class="brandbar default">
+<div class="b1"></div>
+<div class="b2"></div>
+</div>
+</section>
+
+</header>
+<div role="main">
+
+<main>
+
+<article class="content-listing" id="content" tabindex="-1">
+<section class="government-links">
+<div class="federal-government">
+<h2 class="home-heading small">Australian Government</h2>
+<ul class="list-horizontal">
+<li class="ausgov">
+<article>
+<h3>
+<a href="http://www.australia.gov.au/">
+<span class="image"></span>
+australia.gov.au
+</a>
+</h3>
+<p>Entry point for people to find Australian Government information. Also includes links to popular state, territory and local government information.</p>
+</article>
+</li>
+<li class="busgov">
+<article>
+<h3>
+<a href="https://www.business.gov.au/">
+<span class="image"></span>
+business.gov.au
+</a>
+</h3>
+<p>Helps businesses to find all the information and tools they need from government to start, run and grow a business.</p>
+</article>
+</li>
+<li class="mygov">
+<article>
+<h3>
+<a href="https://my.gov.au/">
+<span class="image"></span>
+my.gov.au
+</a>
+</h3>
+<p>A secure myGov account lets you link a range of Australian Government services with one username and password, all in one place.</p>
+</article>
+</li>
+</ul>
+</div>
+<div class="state-government">
+<h2 class="home-heading small">State and territory governments</h2>
+<ul class="list-vertical">
+<li class="nsw">
+<article>
+<h3 class="state-title">New South Wales</h3>
+<a href="https://www.nsw.gov.au/">
+<span class="image"></span>
+nsw.gov.au
+</a>
+</article>
+</li>
+<li class="vic">
+<article>
+<h3 class="state-title">Victoria</h3>
+<a href="http://www.vic.gov.au/">
+<span class="image"></span>
+vic.gov.au
+</a>
+</article>
+</li>
+<li class="qld">
+<article>
+<h3 class="state-title">Queensland</h3>
+<a href="http://www.qld.gov.au/">
+<span class="image"></span>
+qld.gov.au
+</a>
+</article>
+</li>
+<li class="sa">
+<article>
+<h3 class="state-title">South Australia</h3>
+<a href="http://www.sa.gov.au/">
+<span class="image"></span>
+sa.gov.au
+</a>
+</article>
+</li>
+<li class="wa">
+<article>
+<h3 class="state-title">Western Australia</h3>
+<a href="https://www.wa.gov.au/">
+<span class="image"></span>
+wa.gov.au
+</a>
+</article>
+</li>
+<li class="tas">
+<article>
+<h3 class="state-title">Tasmania</h3>
+<a href="http://www.tas.gov.au/">
+<span class="image"></span>
+tas.gov.au
+</a>
+</article>
+</li>
+<li class="nt">
+<article>
+<h3 class="state-title">Northern Territory</h3>
+<a href="https://nt.gov.au/">
+<span class="image"></span>
+nt.gov.au
+</a>
+</article>
+</li>
+<li class="act">
+<article>
+<h3 class="state-title">Australian Capital Territory</h3>
+<a href="http://www.act.gov.au/">
+<span class="image"></span>
+act.gov.au
+</a>
+</article>
+</li>
+</ul>
+</div>
+</section>
+<section class="local-government">
+<h2 class="home-heading small">Local government</h2>
+<p>
+The 6 states and the Northern Territory have established 1 further
+level of government. Local governments (also known as city, shire, town or
+municipal councils) handle community needs like waste collection, public
+recreation facilities and town planning.
+</p>
+<p>
+The
+<strong>
+<a href="http://alga.asn.au/">Australian Local Government Association</a>
+</strong>
+is the national voice of local government, representing 560 councils
+across the country. State local government directories provide links to
+local council sites:
+</p>
+<ul>
+<li>
+<a href="https://www.olg.nsw.gov.au/local-government-directory">New South Wales local government directory</a>
+</li>
+<li>
+<a href="https://dlgcs.nt.gov.au/">Northern Territory local government directory</a>
+</li>
+<li>
+<a href="http://www.dilgp.qld.gov.au/local-government-directory/">Queensland local government directory</a>
+</li>
+<li>
+<a href="http://www.lga.sa.gov.au/councils">South Australia local government directory</a>
+</li>
+<li>
+<a href="http://www.dpac.tas.gov.au/divisions/local_government/local_government_directory">Tasmania local government directory</a>
+</li>
+<li>
+<a href="https://www.localgovernment.vic.gov.au/">Victoria local government directory</a>
+</li>
+<li>
+<a href="https://www.wa.gov.au/service/civic-infrastructure/integrated-essential-services/find-your-local-government">Western Australia local government directory</a>
+</li>
+</ul>
+</section>
+</article>
+
+
+</main>
+</div>
+<footer role="contentinfo">
+<div class="wrapper">
+<section>
+<div class="footer-logo">
+<img alt="Australian Government Coat of Arms" src="img/coat-of-arms-af51ab555b0040c7bcda43484858d96594d2cb60d71ff58ff91003a9cc7f3e81.png">
+</div>
+<div class="footer-links">
+<nav>
+<ul>
+<li><a href="copyright">Copyright</a></li>
+<li><a href="disclaimer">Disclaimer</a></li>
+<li><a href="privacy">Privacy</a></li>
+<li><a href="about">About</a></li>
+<li><a href="mailto:info@dta.gov.au">Feedback</a></li>
+</ul>
+</nav>
+<p>
+&copy; Commonwealth of Australia
+<br>
+<a href="http://creativecommons.org/licenses/by/3.0/au/">This work is licensed under a Creative Commons Attribution 3.0 International License</a>
+</p>
+</div>
+</section>
+</div>
+</footer>
+</body>
+</html>

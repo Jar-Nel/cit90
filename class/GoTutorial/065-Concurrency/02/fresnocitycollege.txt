@@ -1,0 +1,1404 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <title>
+            Fresno City College
+        </title>
+        
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+	
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56468005-1"></script>
+    <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-56468005-1');
+    </script>
+    
+	<link href="_files/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="_files/css/bootstrap-accessibility.css" rel="stylesheet" type="text/css"/>
+	<link href="_files/css/megamenu.css" rel="stylesheet" type="text/css"/>
+	<link href="_files/css/slick.css" rel="stylesheet" type="text/css"/>
+	<link href="_files/css/fonts.css" rel="stylesheet" type="text/css"/>
+	<link href="_files/css/header.css" rel="stylesheet" type="text/css"/>
+	<link href="_files/css/main.css" rel="stylesheet" type="text/css"/>
+	<link href="_files/css/interior.css" rel="stylesheet" type="text/css"/>
+	<link href="_files/css/footer.css" rel="stylesheet" type="text/css"/>
+	<link href="_files/css/mobile.css" rel="stylesheet" type="text/css"/>
+	<link href="_files/css/ipad.css" rel="stylesheet" type="text/css"/>
+	<link href="_files/css/ie10_11.css" rel="stylesheet" type="text/css"/>
+	<link href="_files/css/print.css" media="print" rel="stylesheet" type="text/css"/>
+	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<link href="https://ozplayer.global.ssl.fastly.net/2.0/ozplayer-core/ozplayer.min.css" media="all" rel="stylesheet" type="text/css"/>
+	<link href="https://ozplayer.global.ssl.fastly.net/2.0/ozplayer-skin/highlights-blue.css" media="all" rel="stylesheet" type="text/css"/>
+	<link href="https://ozplayer.global.ssl.fastly.net/2.0/transcript.css" media="all" rel="stylesheet" type="text/css"/>
+    
+	<script src="https://ozplayer.global.ssl.fastly.net/2.0/ozplayer-core/mediaelement.min.js" type="text/javascript"></script>
+
+        
+<script>
+  (function() {
+    var cx = '006427518256247909601:svjkl97nzpe';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+
+
+
+        <meta content="1eaa61c5ac1e00f61cb203d23432d5ae" name="id"/>
+    </head>
+
+    <body>
+        <div id="pageLoad"></div>
+        <a class="skip" href="#navigation">Skip to Navigation</a>
+        <a class="skip" href="#content">Skip to Content</a>
+        <!--a class="skip" href="#pagelinks" id="pagelinkscatch">Skip to Page Links</a-->
+        <a class="skip" href="#footermenu">Skip to Footer</a>
+        <header>
+                
+    <div class="hideinmobile" id="top_menu">
+        <div class="content flex">
+            <div class="noleftpadd"><a href="future-students/index.html">Future Students</a></div>
+            <div><a href="current-students/index.html">Current Students</a></div>
+            <div><a href="faculty-and-staff/index.html">Faculty &#38; Staff</a></div>
+            <div><a href="community/index.html">Alumni &#38; Community</a></div>
+            <div>
+          
+            <form action="/search-results.html" class="flex">
+                <input name="cx" type="hidden" value="008793671985872935164:ualkxrditle"/>
+				<input name="cof" type="hidden" value="FORID:11"/>
+				<input name="ie" type="hidden" value="UTF-8"/>
+				
+                <input aria-label="Search" aria-labelledby="searchfield" class="fontrr" id="searchfield" name="q" placeholder="Search..." title="searchfield"/> 
+                <button aria-label="search" class="ipadsearchfix">
+                    <img alt="search button" src="_files/images/search.png"/>
+                </button>
+            </form>
+                
+            </div>
+        </div>
+    </div>
+    
+            
+	<div>
+		<div class="content">
+			<div class="flex" id="headerlogo">
+				<div class="sizedownlogo">
+					<a href="index.html">
+						<img alt="Fresno City College Logo" src="_files/images/headerlogo.png"/>
+					</a>
+				</div>
+				<div class="nodesktopdisplay" id="hamburger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<ul class="flex hideinmobile submenu js-nav-system sizedownlinks">
+					<li class="center js-nav-system__item" style="">
+						<a class="icon-athletics js-nav-system__link" href="http://fccrams.com/landing/index">Athletics</a>
+					</li>
+					<li class="center js-nav-system__item">
+						<a class="icon-library js-nav-system__link" href="academics/library/index.html">Library</a>
+					</li>
+					<li class="center js-nav-system__item">
+						<a class="icon-login js-nav-system__link" href="https://myportal.scccd.edu/uPortal/Login?cccMisCode=571" target="_blank">My Portal</a>
+						<!--<a class="icon-login js-nav-system__link" href="http://www.scccd.edu/my-portal/portal.html" target="_blank">My Portal</a>-->
+					</li>
+					<li class="center js-nav-system__item" id="quick-links">
+						<a aria-labelledby="ql" class="icon-links js-nav-system__link quicklinks_drop" href="#" id="ql">Quick Links</a>
+						<ul class="noleftpadd js-nav-system__subnav dropdown-links">
+							<li class="js-nav-system__subnav__item">
+								<a aria-labelledby="ql apply" class="js-nav-system__subnav__link" href="admissions-aid/apply.html" id="apply">Apply for Admission</a>
+							</li>
+							<li class="js-nav-system__subnav__item">
+								<a aria-labelledby="ql cal" class="js-nav-system__subnav__link" href="events/index.html" id="cal">Calendar</a>
+							</li>
+							<li class="js-nav-system__subnav__item">
+								<a aria-labelledby="ql map" class="js-nav-system__subnav__link" href="about/contact.html#campus" id="map">Campus Map</a>
+							</li>
+							<li class="js-nav-system__subnav__item">
+								<a aria-labelledby="ql sch" class="js-nav-system__subnav__link" href="admissions-aid/schedules.html" id="sch">Class Schedules</a>
+							</li>
+							<li class="js-nav-system__subnav__item">
+								<a aria-labelledby="ql coun" class="js-nav-system__subnav__link" href="academics/counseling/index.html" id="coun">Counseling</a>
+							</li>
+							<li class="js-nav-system__subnav__item">
+								<a aria-labelledby="ql dir" class="js-nav-system__subnav__link" href="directory/index.html" id="dir">Faculty/Staff Directory</a>
+							</li>
+							<li class="js-nav-system__subnav__item">
+								<a aria-labelledby="ql exam" class="js-nav-system__subnav__link" href="academics/finals.html" id="exam">Final Exam Schedule</a>
+							</li>
+							<li class="js-nav-system__subnav__item">
+								<a aria-labelledby="ql fin" class="js-nav-system__subnav__link" href="admissions-aid/financial-aid-office/index.html" id="fin">Financial Aid</a>
+							</li>
+							<li class="js-nav-system__subnav__item">
+								<a aria-labelledby="ql hr" class="js-nav-system__subnav__link" href="https://www.scccd.edu/departments/human-resources/index.html" id="hr">Human Resources</a>
+							</li>
+							<li class="js-nav-system__subnav__item">
+								<a aria-labelledby="ql ir" class="js-nav-system__subnav__link" href="faculty-and-staff/institutional-research-and-effectiveness/institutional-research/index.html" id="ir">Institutional Research</a>
+							</li>
+							<li class="js-nav-system__subnav__item">
+								<a aria-labelledby="ql bo" class="js-nav-system__subnav__link" href="campus-life/events-and-places/theatre-box-office.html" id="bo">Theatre Box Office</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="menu_wrapper">
+			<div class="menu_container">
+				<nav aria-label="landscape Navigation" class="megamenu" id="landscapeNav" role="navigation">
+					<ul>
+						<li aria-labelledby="main_about" class="megamenu-list subnavigation_item" id="navigation">
+							<a href="about/index.html" id="main_about">ABOUT</a>
+							<div class="sf-mega clearfix">
+								<div class="sf-mega-row row">
+									<ul class="subnavigation_column">
+										<li>
+											<a href="about/accreditation/index.html">Accreditation</a>
+										</li>
+										<li>
+											<a href="about/contact.html">Contact &#38; Maps</a>
+										</li>
+										<li>
+											<a href="about/operating-hours.html">Hours of Operation</a>
+										</li>
+										<li>
+											<a href="about/campus-history.html">History</a>
+										</li>
+										<li>
+											<a href="about/mission-statement.html">Mission &#38; Vision</a>
+										</li>
+									</ul>
+									<ul class="subnavigation_column">
+										<li>
+											<a href="about/rights-responsibilities.html">Rights &#38; Responsibilities</a>
+										</li>
+										<li>
+											<a href="about/title-ix.html">Title IX</a>
+										</li>
+										<li>
+											<a href="about/accessibility/index.html">Accessibility Support</a>
+										</li>
+										<li>
+											<a href="academics/majors.html">Majors</a>
+										</li>
+										<li>
+											<a href="about/donate/index.html">Giving to FCC</a>
+										</li>
+									</ul>
+									<ul class="subnavigation_column">
+										<li>
+											<a href="faculty-and-staff/administrative-offices/office-of-the-president.html">Office of the President</a>
+										</li>
+										<li>
+											<a href="about/transformative-climate-communities.html">Transformative Climate Communities</a>
+										</li>
+										<li>
+											<a href="faculty-and-staff/institutional-research-and-effectiveness/index.html">Institutional Research &#38; Effectiveness</a>
+										</li>
+										<li>
+											<a href="faculty-and-staff/institutional-research-and-effectiveness/planning.html">Institutional Planning</a>
+										</li>
+										<li>
+											<a href="faculty-and-staff/associations-committees-governance/index.html">College Committees</a>
+										</li>
+									</ul>
+									<ul class="subnavigation_column hideinmobile">
+										<li>
+											<img alt="man with book" height="160" src="_files/images/manwithbook.jpg" width="261"/>
+											<a class="nav_image_link" href="community/index.html">Be Involved</a>
+											<div class="nav_image_desc">Be a part of our Community</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li aria-labelledby="main_admissions" class="megamenu-list subnavigation_item">
+							<a href="admissions-aid/index.html" id="main_admissions">Admissions &#38; Aid</a>
+							<div class="sf-mega clearfix">
+								<div class="sf-mega-row row">
+									<ul class="subnavigation_column">
+										<li>
+											<a href="admissions-aid/apply.html">Apply to Fresno City College</a>
+										</li>
+										<li>
+											<a href="admissions-aid/admissions-and-records-office/index.html">Admissions &#38; Records Office</a>
+										</li>
+										<li>
+											<a href="lp/fcc-everywhere.html">FCC Everywhere Campuses</a>
+										</li>
+										<li>
+											<a href="admissions-aid/register-for-classes.html">Register for Classes</a>
+										</li>
+										<li>
+											<a href="admissions-aid/admissions-and-records-office/graduation/index.html">Graduation</a>
+										</li>
+										<li>
+											<a href="admissions-aid/admissions-and-records-office/records/transcripts.html">Order Transcripts</a>
+										</li>
+									</ul>
+									<ul class="subnavigation_column">
+										<li>
+											<a href="admissions-aid/financial-aid-office/index.html">Financial Aid</a>
+										</li>
+										<li>
+											<a href="admissions-aid/scholarships/index.html">Scholarships</a>
+										</li>
+										<li>
+											<a href="admissions-aid/business-office/cost-of-college.html">Cost of College</a>
+										</li>
+										<li>
+											<a href="admissions-aid/business-office/index.html">Business Office</a>
+										</li>
+										<li>
+											<a href="admissions-aid/assessment-center.html">Assessment Center</a>
+										</li>
+									</ul>
+									<ul class="subnavigation_column">
+										<li>
+											<a href="student-services/programs/dream-center.html">Dream Center</a>
+										</li>
+										<li>
+											<a href="admissions-aid/admissions-and-records-office/admissions/high-school-enrichment.html">High School Enrichment</a>
+										</li>
+										<li>
+											<a href="admissions-aid/admissions-and-records-office/admissions/dual-enrollment.html">High School Dual Enrollment</a>
+										</li>
+										<li>
+											<a href="student-services/calworks/index.html">CalWorks</a>
+										</li>
+										<li>
+											<a href="student-services/veterans-resource-center/index.html">Assistance for Veterans</a>
+										</li>
+										<li>
+											<a href="student-services/international-students/index.html">International Students</a>
+										</li>
+									</ul>
+									<ul class="subnavigation_column hideinmobile">
+										<li>
+											<img alt="auto repair" src="uploaded-files/images/academics/auto_small_corner.jpg"/>
+											<a class="nav_image_link" href="academics/certificates.html">Now is the time</a>
+											<div class="nav_image_desc">Start your career</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li aria-labelledby="main_academics" class="megamenu-list subnavigation_item">
+							<a href="academics/index.html" id="main_academics">Academics</a>
+							<div class="sf-mega clearfix">
+								<div class="sf-mega-row row">
+									<ul class="subnavigation_column">
+										<li>
+											<a href="academics/majors.html">Majors</a>
+										</li>
+										<li>
+											<a href="academics/certificates.html">Certificates</a>
+										</li>
+										<li>
+											<a href="admissions-aid/catalog.html">Catalogs</a>
+										</li>
+										<li>
+											<a href="admissions-aid/schedules.html">Schedule of Classes</a>
+										</li>
+										<li>
+											<a href="admissions-aid/register-for-classes.html">Register for Classes</a>
+										</li>
+										<li>
+											<a href="academics/online-learning/index.html">Distance Education</a>
+										</li>
+									</ul>
+									<ul class="subnavigation_column">
+										<li>
+											<a href="academics/divisions/index.html">Academic Divisions</a>
+										</li>
+										<li>
+											<a href="academics/career-and-technical-education/index.html">Career Technical Education</a>
+										</li>
+										<li>
+											<a href="academics/career-and-technical-education/police-academy/index.html">Police Academy</a>
+										</li>
+										<li>
+											<a href="academics/career-and-technical-education/fire-technology/index.html">Fire Technology</a>
+										</li>
+										<li>
+											<a href="academics/career-and-technical-education/training-institute/index.html">Training Institute</a>
+										</li>
+										<li>
+											<a href="academics/divisions/apa-division/index.html">Medical Field</a>
+										</li>
+										<li>
+											<a href="student-services/programs/leon-s-peters-honors.html">Leon S. Peters Honors Program</a>
+										</li>
+									</ul>
+									<ul class="subnavigation_column">
+										<li>
+											<a href="academics/library/index.html">Library</a>
+										</li>
+										<li>
+											<a href="academics/counseling/index.html">Counseling</a>
+										</li>
+										<li>
+											<a href="admissions-aid/assessment-center.html">Assessment Center</a>
+										</li>
+										<li>
+											<a href="academics/tutoring/index.html">Tutoring Center</a>
+										</li>
+										<li>
+											<a href="academics/counseling/transfer-center/index.html">Transfer Center</a>
+										</li>
+									</ul>
+									<ul class="subnavigation_column hideinmobile">
+										<li>
+											<img alt="spring concert showing celebration" src="uploaded-files/images/academics/290-spring_concert__small_corner.jpg"/>
+											<a class="nav_image_link" href="academics/tutoring/index.html">Success</a>
+											<div class="nav_image_desc">Is in your hands</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li aria-labelledby="main_campus" class="megamenu-list subnavigation_item">
+							<a href="campus-life/index.html" id="main_campus">Campus Life</a>
+							<div class="sf-mega clearfix">
+								<div class="sf-mega-row row">
+									<ul class="subnavigation_column">
+										<li>
+											<a href="events/index.html">Calendar</a>
+										</li>
+										<li>
+											<a href="campus-life/events-and-places/index.html">Activities</a>
+										</li>
+										<li>
+											<a href="campus-life/events-and-places/performing-arts/index.html">Performing Arts Events</a>
+										</li>
+										<li>
+											<a href="http://fccrams.com/landing/index">Athletics</a>
+										</li>
+										<li>
+											<a href="campus-life/clubs/index.html">Clubs</a>
+										</li>
+									</ul>
+									<ul class="subnavigation_column">
+										<li>
+											<a href="campus-life/bookstore.html">Bookstore</a>
+										</li>
+										<li>
+											<a href="campus-life/parking-permits-and-tickets.html">Parking</a>
+										</li>
+										<li>
+											<a href="campus-life/health-and-wellness/index.html">Health &#38; Wellness</a>
+										</li>
+										<li>
+											<a href="campus-life/food.html">Food Services</a>
+										</li>
+										<li>
+											<a href="campus-life/ram-pantry/index.html">Ram Pantry</a>
+										</li>
+									</ul>
+									<ul class="subnavigation_column">
+										<li>
+											<a href="campus-life/events-and-places/ram-ready.html">Ram Ready for New Students</a>
+										</li>
+										<li>
+											<a href="campus-life/career-and-employment-center.html">Career &#38; Employment Center</a>
+										</li>
+										<li>
+											<a href="campus-life/publications/index.html">Publications</a>
+										</li>
+										<li>
+											<a href="campus-life/technology.html">Technology Help</a>
+										</li>
+									</ul>
+									<ul class="subnavigation_column hideinmobile">
+										<li>
+											<img alt="students" src="uploaded-files/images/academics/emls_students_in_the_library_small_corner.jpg"/>
+											<a class="nav_image_link" href="campus-life/clubs/index.html">Join a Club</a>
+											<div class="nav_image_desc">Make friends and join our Community</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li aria-labelledby="main_services" class="megamenu-list subnavigation_item">
+							<a href="student-services/index.html" id="main_services">Student Services</a>
+							<div class="sf-mega clearfix">
+								<div class="sf-mega-row row">
+									<ul class="subnavigation_column">
+										<li>
+											<a href="student-services/index.html">Student Services Office</a>
+										</li>
+										<li>
+											<a href="student-services/disabled-students-program-and-services/index.html">Disabled Students Program &#38; Services (DSP&#38;S)</a>
+										</li>
+										<li>
+											<a href="student-services/international-students/index.html">International Students</a>
+										</li>
+										<li>
+											<a href="student-services/veterans-resource-center/index.html">Veterans Resource Center</a>
+										</li>
+										<li>
+											<a href="admissions-aid/admissions-and-records-office/admissions/new-student-services.html">College Relations and Outreach</a>
+										</li>
+									</ul>
+									<ul class="subnavigation_column">
+										<li>
+											<a href="academics/counseling/index.html">Counseling</a>
+										</li>
+										<li>
+											<a href="student-services/calworks/index.html">CalWORKS</a>
+										</li>
+										<li>
+											<a href="student-services/programs/eops.html">EOPS</a>
+										</li>
+										<li>
+											<a href="student-services/programs/dream-center.html">Dream Center</a>
+										</li>
+									</ul>
+									<ul class="subnavigation_column">
+										<li>
+											<a href="student-services/child-development-center/index.html">Child Development Center</a>
+										</li>
+										<li>
+											<a href="student-services/programs/index.html">Programs to help you Succeed</a>
+										</li>
+										<li>
+											<a href="student-services/campus-offices.html">Campus Offices</a>
+										</li>
+										<li>
+											<a href="directory/index.html">Faculty/Staff Directory</a>
+										</li>
+									</ul>
+									<ul class="subnavigation_column hideinmobile">
+										<li>
+											<img alt="fcc counselors" src="uploaded-files/images/academics/2016_fcc_counselors_small_corner.jpg"/>
+											<a class="nav_image_link" href="academics/counseling/index.html">Ask Us</a>
+											<div class="nav_image_desc">We are here to help</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li aria-labelledby="main_apply" class="megamenu-list subnavigation_item hideinmobile">
+							<a class="droid first" href="admissions-aid/apply.html" id="main_apply">APPLY NOW</a>
+							<!--div class="sf-mega clearfix nodisplay"></div-->
+						</li>
+					</ul>
+				</nav>
+				<nav aria-label="portrait Navigation" id="portraitNav" role="navigation">
+					<div class="mobilemenu">
+						<ul>
+							<li class="mobilemenu-list subnavigation_item">
+								<button aria-label="open About submenu" class="mobile_arrow">
+									<img alt="menu expand collapse" class="arrowmenu toggle-down" src="_files/images/arrow3.png"/>
+								</button>
+								<span>
+									<a class="mobile_nav_link" href="about/index.html">About</a>
+								</span>
+								<div class="clear"></div>
+								<ul class="subnavigation_column">
+									<li>
+										<a href="about/index.html">About Us</a>
+									</li>
+									<li>
+										<a href="about/contact.html">Contact &#38; Maps</a>
+									</li>
+									<li>
+										<a href="about/accessibility/index.html">Accessibility Support</a>
+									</li>
+									<li>
+										<a href="about/accreditation/index.html">Accreditation</a>
+									</li>
+									<li>
+										<a href="academics/certificates.html">Certificates</a>
+									</li>
+									<li>
+										<a href="faculty-and-staff/associations-committees-governance/index.html">College Committees</a>
+									</li>
+									<li>
+										<a href="about/campus-history.html">History</a>
+									</li>
+									<li>
+										<a href="about/operating-hours.html">Hours of Operation</a>
+									</li>
+									<li>
+										<a href="faculty-and-staff/institutional-research-and-effectiveness/planning.html">Institutional Planning</a>
+									</li>
+									<li>
+										<a href="faculty-and-staff/institutional-research-and-effectiveness/index.html">IR &#38; Effectiveness</a>
+									</li>
+									<li>
+										<a href="academics/majors.html">Majors</a>
+									</li>
+									<li>
+										<a href="about/mission-statement.html">Mission &#38; Vision</a>
+									</li>
+									<li>
+										<a href="faculty-and-staff/administrative-offices/office-of-the-president.html">Office of the President</a>
+									</li>
+									<li>
+										<a href="about/rights-responsibilities.html">Rights &#38; Responsibilities</a>
+									</li>
+									<li>
+										<a href="about/title-ix.html">Title IX</a>
+									</li>
+									<li>
+										<a href="about/transformative-climate-communities.html">Transform. Climate Communities</a>
+									</li>
+								</ul>
+							</li>
+							<li class="mobilemenu-list subnavigation_item">
+								<button aria-label="open Admissions and Aid submenu" class="mobile_arrow">
+									<img alt="menu expand collapse" class="arrowmenu toggle-down" src="_files/images/arrow3.png"/>
+								</button>
+								<span>
+									<a class="mobile_nav_link" href="admissions-aid/index.html">Admissions &#38; Aid</a>
+								</span>
+								<div class="clear"></div>
+								<ul class="subnavigation_column">
+									<li>
+										<a href="admissions-aid/apply.html">Apply to Fresno City College</a>
+									</li>
+									<li>
+										<a href="admissions-aid/index.html">Admissions &#38; Aid</a>
+									</li>
+									<li>
+										<a href="admissions-aid/register-for-classes.html">Register for Classes</a>
+									</li>
+									<li>
+										<a href="admissions-aid/admissions-and-records-office/index.html">Admissions &#38; Records Office</a>
+									</li>
+									<li>
+										<a href="admissions-aid/assessment-center.html">Assessment Center</a>
+									</li>
+									<li>
+										<a href="admissions-aid/business-office/index.html">Business Office</a>
+									</li>
+									<li>
+										<a href="student-services/calworks/index.html">CalWorks</a>
+									</li>
+									<li>
+										<a href="admissions-aid/business-office/cost-of-college.html">Cost of College</a>
+									</li>
+									<li>
+										<a href="student-services/programs/dream-center.html">Dream Center</a>
+									</li>
+									<li>
+										<a href="lp/fcc-everywhere.html">FCC Everywhere Campuses</a>
+									</li>
+									<li>
+										<a href="admissions-aid/financial-aid-office/index.html">Financial Aid</a>
+									</li>
+									<li>
+										<a href="admissions-aid/admissions-and-records-office/graduation/index.html">Graduation</a>
+									</li>
+									<li>
+										<a href="admissions-aid/admissions-and-records-office/admissions/high-school-enrichment.html">High School Enrichment</a>
+									</li>
+									<li>
+										<a href="admissions-aid/admissions-and-records-office/admissions/dual-enrollment.html">High School Dual Enrollment</a>
+									</li>
+									<li>
+											<a href="student-services/international-students/index.html">International Students</a>
+									</li>
+									<li>
+										<a href="admissions-aid/admissions-and-records-office/records/transcripts.html">Order Transcripts</a>
+									</li>
+									<li>
+										<a href="admissions-aid/scholarships/index.html">Scholarships</a>
+									</li>
+									<li>
+										<a href="student-services/veterans-resource-center/index.html">Assistance for Veterans</a>
+									</li>
+								</ul>
+							</li>
+							<li class="mobilemenu-list subnavigation_item">
+								<button aria-label="open Academics submenu" class="mobile_arrow">
+									<img alt="menu expand collapse" class="arrowmenu toggle-down" src="_files/images/arrow3.png"/>
+								</button>
+								<span>
+									<a class="mobile_nav_link" href="academics/index.html">Academics</a>
+								</span>
+								<div class="clear"></div>
+								<ul class="subnavigation_column">
+									<li>
+										<a href="academics/majors.html">Majors</a>
+									</li>
+									<li>
+										<a href="academics/certificates.html">Certificates</a>
+									</li>
+									<li>
+										<a href="academics/index.html">Our Academics</a>
+									</li>
+									<li>
+										<a href="admissions-aid/register-for-classes.html">Register for Classes</a>
+									</li>
+									<li>
+										<a href="academics/divisions/index.html">Academic Divisions</a>
+									</li>
+									<li>
+										<a href="admissions-aid/assessment-center.html">Assessment Center</a>
+									</li>
+									<li>
+										<a href="academics/career-and-technical-education/index.html">Career Technical Education</a>
+									</li>
+									<li>
+										<a href="admissions-aid/catalog.html">Catalogs</a>
+									</li>
+									<li>
+										<a href="academics/counseling/index.html">Counseling</a>
+									</li>
+									<li>
+										<a href="academics/online-learning/index.html">Distance Education</a>
+									</li>
+									<li>
+										<a href="academics/career-and-technical-education/fire-technology/index.html">Fire Technology</a>
+									</li>
+									<li>
+										<a href="student-services/programs/leon-s-peters-honors.html">Leon S. Peters Honors Programs</a>
+									</li>
+									<li>
+										<a href="academics/library/index.html">Library</a>
+									</li>
+									<li>
+										<a href="academics/divisions/apa-division/index.html">Medical Field</a>
+									</li>
+									
+									<li>
+										<a href="academics/career-and-technical-education/police-academy/index.html">Police Academy</a>
+									</li>
+									<li>
+										<a href="admissions-aid/schedules.html">Schedule of Classes</a>
+									</li>
+									<li>
+										<a href="academics/career-and-technical-education/training-institute/index.html">Training Institute</a>
+									</li>
+									<li>
+										<a href="academics/counseling/transfer-center/index.html">Transfer Center</a>
+									</li>
+									<li>
+										<a href="academics/tutoring/index.html">Tutoring Center</a>
+									</li>
+								</ul>
+							</li>
+							<li class="mobilemenu-list subnavigation_item">
+								<button aria-label="open Campus Life submenu" class="mobile_arrow">
+									<img alt="menu expand collapse" class="arrowmenu toggle-down" src="_files/images/arrow3.png"/>
+								</button>
+								<span>
+									<a class="mobile_nav_link" href="campus-life/index.html">Campus Life</a>
+								</span>
+								<div class="clear"></div>
+								<ul class="subnavigation_column">
+									<li>
+										<a href="campus-life/index.html">Welcome</a>
+									</li>
+									<li>
+										<a href="events/index.html">Calendar</a>
+									</li>
+									<li>
+										<a href="campus-life/events-and-places/index.html">Activities</a>
+									</li>
+									<li>
+										<a href="http://fccrams.com/landing/index">Athletics</a>
+									</li>
+									<li>
+										<a href="campus-life/bookstore.html">Bookstore</a>
+									</li>
+									<li>
+										<a href="campus-life/career-and-employment-center.html">Career &#38; Employment Center</a>
+									</li>
+									<li>
+										<a href="campus-life/clubs/index.html">Clubs</a>
+									</li>
+									<li>
+										<a href="campus-life/health-and-wellness/index.html">Health &#38; Wellness</a>
+									</li>
+									<li>
+										<a href="campus-life/parking-permits-and-tickets.html">Parking</a>
+									</li>
+									<li>
+										<a href="campus-life/events-and-places/performing-arts/index.html">Performing Arts Events</a>
+									</li>
+									<li>
+										<a href="campus-life/publications/index.html">Publications</a>
+									</li>
+									<li>
+										<a href="campus-life/food.html">Food Services</a>
+									</li>
+									<li>
+										<a href="campus-life/ram-pantry/index.html">Ram Pantry</a>
+									</li>
+									<li>
+										<a href="campus-life/events-and-places/ram-ready.html">Ram Ready for New Students</a>
+									</li>
+									<li>
+										<a href="campus-life/technology.html">Technology Help</a>
+									</li>
+								</ul>
+							</li>
+							<li class="mobilemenu-list subnavigation_item">
+								<button aria-label="open Student Services submenu" class="mobile_arrow">
+									<img alt="menu expand collapse" class="arrowmenu toggle-down" src="_files/images/arrow3.png"/>
+								</button>
+								<span>
+									<a class="mobile_nav_link" href="student-services/index.html">Student Services</a>
+								</span>
+								<div class="clear"></div>
+								<ul class="subnavigation_column">
+									<li>
+										<a href="student-services/index.html">Student Services Office</a>
+									</li>
+									<li>
+										<a href="student-services/calworks/index.html">CalWORKS</a>
+									</li>
+									<li>
+										<a href="student-services/campus-offices.html">Campus Offices</a>
+									</li>
+									<li>
+										<a href="student-services/child-development-center/index.html">Child Development Center</a>
+									</li>
+									<li>
+										<a href="admissions-aid/admissions-and-records-office/admissions/new-student-services.html">College Relations and Outreach</a>
+									</li>
+									<li>
+										<a href="academics/counseling/index.html">Counseling</a>
+									</li>
+									<li>
+										<a href="student-services/disabled-students-program-and-services/index.html">Disabled Students Program &#38; Services (DSP&#38;S)</a>
+									</li>
+									<li>
+										<a href="student-services/programs/dream-center.html">Dream Center</a>
+									</li>
+									<li>
+										<a href="student-services/programs/eops.html">EOPS</a>
+									</li>
+									<li>
+										<a href="student-services/international-students/index.html">International Students</a>
+									</li>
+									<li>
+										<a href="student-services/programs/index.html">Programs to help you Succeed</a>
+									</li>
+									<li>
+										<a href="student-services/veterans-resource-center/index.html">Veterans Resource Center</a>
+									</li>
+									<li>
+										<a href="directory/index.html">Faculty/Staff Directory</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<div id="mobile_menu">
+							<div>
+								<form action="/search-results.html" class="flex">
+									<input name="cx" type="hidden" value="008793671985872935164:ualkxrditle"/>
+									<input name="cof" type="hidden" value="FORID:11"/>
+									<input name="ie" type="hidden" value="UTF-8"/>
+									<input aria-labelledby="searchinput" id="searchinput" name="q" placeholder="Search..." title="searchinput" type="text"/>
+									<button aria-label="mobile search button"></button>
+								</form>
+							</div>
+							<div class="flex">
+								<div class="flex column" id="leftlinks">
+									<div>
+										<a href="future-students/index.html">Future Students</a>
+									</div>
+									<div>
+										<a href="current-students/index.html">Current Students</a>
+									</div>
+									<div>
+										<a href="faculty-and-staff/index.html">Faculty &#38; Staff</a>
+									</div>
+									<div>
+										<a href="community/index.html">Alumni &#38; Community</a>
+									</div>
+								</div>
+								<div class="flex column" id="rightlinks">
+									<div>
+										<a href="http://fccrams.com/landing/index">Athletics</a>
+									</div>
+									<div>
+										<a href="academics/library/index.html">Library</a>
+									</div>
+									<div>
+										<a href="https://myportal.scccd.edu/uPortal/Login?cccMisCode=571" target="_blank">My Portal</a>
+										<!--<a href="http://www.scccd.edu/my-portal/portal.html" target="_blank">My Portal</a>-->
+									</div>
+									<div>
+										<a aria-label="quick links for mobile devices" href="lp/quick-links-mobile.html">Quick Links</a>
+									</div>
+								</div>
+							</div>
+							<div class="center">
+								<a class="lightgreen boldmobile" href="admissions-aid/apply.html">APPLY NOW</a>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+
+        </header>
+        <div id="content"></div>
+        <script>
+    var slidecount = 3;
+</script>
+<div class="carousel slide" data-pause="hover" data-ride="carousel" id="slider_new">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+                                          <li class="active" data-slide-to="0" data-target="#slider_new" style="background-image:url('_files/images/thumbs/ab-19-free-enrollment-homepage-slider-thumb.jpg');"><div class="blue_gradient"></div></li>
+                              <li data-slide-to="1" data-target="#slider_new" style="background-image:url('_files/images/thumbs/fcc-everywhere-homepage-slider-thumb.jpg');"><div class="blue_gradient"></div></li>
+                              <li data-slide-to="2" data-target="#slider_new" style="background-image:url('_files/images/thumbs/toasting-the-arts-homepage-slider-thumb.jpg');"><div class="blue_gradient"></div></li>
+            </ol>
+      <div class="carousel-inner">
+                                
+                                                                                                
+            <div class="item active">
+              <div data-caption="#caption1">
+                <div class="dark_gradient">
+                      <img alt="welcome" src="_files/images/hp_banners/ab-19-free-enrollment-homepage-slider.jpg"/>
+                </div>
+              </div>
+                                <div class="carousel-caption">
+                    <a href="admissions-aid/financial-aid-office/financial-aid-programs/college-for-free.html">
+                                                    <h1>Fresno City College is Free!</h1>
+                                                
+                                                    <p>Enrollment Fees may be Waived!</p>
+                                           
+                        <span class="slider_button">Are you a first or second year student?</span>
+                    </a>
+                  </div>
+                          </div>
+                                
+                                                                                    
+            <div class="item ">
+              <div data-caption="#caption2">
+                <div class="dark_gradient">
+                      <img alt="Sam the ram" src="_files/images/hp_banners/fcc-everywhere-homepage-slider.jpg"/>
+                </div>
+              </div>
+                                <div class="carousel-caption">
+                    <a href="lp/fcc-everywhere.html">
+                                                    <h1>FCC Everywhere</h1>
+                                                
+                                                    <p>Attend classes at your Neighborhood Campus </p>
+                                           
+                        <span class="slider_button">Find a location near you</span>
+                    </a>
+                  </div>
+                          </div>
+                                
+                                                                                    
+            <div class="item ">
+              <div data-caption="#caption3">
+                <div class="dark_gradient">
+                      <img alt="toasting the arts" src="_files/images/hp_banners/fall-semester-events/toasting-the-arts-homepage-slider.jpg"/>
+                </div>
+              </div>
+                                <div class="carousel-caption">
+                    <a href="about/donate/toasting-the-arts.html">
+                                                    <h1>Toasting the Arts</h1>
+                                                
+                                                    <p>Dinner, Entertainment, and Auction Fundraiser</p>
+                                           
+                        <span class="slider_button">Support the Arts at FCC</span>
+                    </a>
+                  </div>
+                          </div>
+              </div> <!-- carousel-inner -->
+      <a class="left carousel-control" data-slide="prev" href="#slider_new" role="button">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" data-slide="next" href="#slider_new" role="button">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+</div><!-- /.carousel -->
+
+        
+<div class="flex" id="news">
+    <div class="hideinmobile">
+        <div class="newsFeature" style="background-image:url('_files/images/news_background.jpg')">
+            <div class="NewsFeatureOverlay" style="background-image:url('_files/images/news-overlay.png')"></div>
+        </div>
+    </div>
+    <div>
+        <a href="news/index.html"><h2 class="logo-h2 boldmobile" id="logo-h2-news">News</h2></a>
+                                                                                            <div class="news">
+                    <div>
+                        <a href="news/2019/flaminhotcheetosrichardmontanez.html"><img alt="speakers forum " class="news_img" src="uploaded-files/images/common/news-thumbnails/Speakers-Forum-S-news-thumbnail.png"/></a>
+                    </div>
+                    <div>
+                        <a href="news/2019/flaminhotcheetosrichardmontanez.html"><h3>Flamin' Hot Cheetos. They're all the rage. Now meet the man who invented them.</h3></a>
+                        <p>Fresno City College's Speakers Forum presents innovator and corporate leader Richard Montanez appearing on Monday, Oct. 28 in the Old Administration Building Auditorium at 12 p.m.</p>
+                        <!-- <a href="site://Fresno/news/2019/flaminhotcheetosrichardmontanez" class="boldmobile">READ MORE ></a> -->
+                    </div>
+                </div>
+                                                                                                        <div class="news">
+                    <div>
+                        <a href="news/2019/let-the-right-one-in.html"><img alt="theatre" class="news_img" src="uploaded-files/images/common/calendar-thumbs/let-the-right-one-in-calendar-thumbnail.jpg"/></a>
+                    </div>
+                    <div>
+                        <a href="news/2019/let-the-right-one-in.html"><h3>Let the Right One In brings Vampires to the FCC Stage</h3></a>
+                        <p>Fresno City College is proud to present their ferociously enrapturing production of the coming-of-age love story “Let the Right One In,” complete with vampires.</p>
+                        <!-- <a href="site://Fresno/news/2019/let-the-right-one-in" class="boldmobile">READ MORE ></a> -->
+                    </div>
+                </div>
+                                                                                                        <div class="news">
+                    <div>
+                        <a href="news/2019/FresnoCityCollegeOpenHouse.html"><img alt="sam the ram" class="news_img" src="_files/images/thumbs/open-house-homepage-slider-thumb.jpg"/></a>
+                    </div>
+                    <div>
+                        <a href="news/2019/FresnoCityCollegeOpenHouse.html"><h3>Fresno City College Open House</h3></a>
+                        <p>Fresno City College will open its doors to the community on Saturday, September 28, from 10 am to 2 pm for a community Open House. All are welcome to the campus wide event. </p>
+                        <!-- <a href="site://Fresno/news/2019/FresnoCityCollegeOpenHouse" class="boldmobile">READ MORE ></a> -->
+                    </div>
+                </div>
+                                                                        <div class="centermobile">
+            <a class="lightgreen button fontrm" href="news/index.html">More news &gt;</a>
+        </div>
+    </div>
+    </div>
+
+        
+
+
+<script>
+    var maxPosts = "8";
+    var siteName = "Fresno";
+</script>
+
+    
+    <style>
+        @media (min-width: 802px) {
+            .events > div {
+                width: 244px;
+            }
+        }
+        @media (max-width: 801px) {
+            #eventsRowTwo {
+                padding-top: 0;
+            }
+            #eventsRowOne {
+                padding-bottom: 0;
+            }
+        }
+    </style>
+    
+
+
+
+<div id="events">
+    <div class="content">
+        <div>
+            <a href="events/index.html"><h2 class="logo-h2 boldmobile" id="logo-h2-events">Upcoming Events</h2></a>
+        </div>
+                <div class="events" id="eventsRowOne">
+            
+        </div>
+                            <div class="events" id="eventsRowTwo">
+                
+            </div>
+                <div><a class="button eventsbutton" href="events/index.html">View Calendar &gt;</a></div>
+    </div>
+</div>
+
+
+        
+            
+<div id="information">
+    <div class="content flex">
+                                                                        <a href="academics/majors.html">
+                        <div class="homeCircle">
+                    <img alt="majors and certificates" src="_files/images/support.jpg"/>
+                    <div class="information info01">
+                                                                                                                    <div class="fontrb">
+                            <em>
+                                                                    Majors &amp; 
+                                     <br/>                                                                     Certificates
+                                                                                                </em>
+                        </div>
+                                             
+                                                                                                                        <div class="fontrr">
+                                                                    Discover your 
+                                     <br/>                                                                     Future
+                                                                                                </div>
+                                            </div>
+            </div>
+            </a>                                                                        <a href="future-students/index.html">
+                        <div class="homeCircle">
+                    <img alt="prospective students" src="_files/images/applying.jpg"/>
+                    <div class="information info02">
+                                                                                                                    <div class="fontrb">
+                            <em>
+                                                                    Thinking about
+                                     <br/>                                                                     Applying
+                                                                                                </em>
+                        </div>
+                                             
+                                                                                                                        <div class="fontrr">
+                                                                    Prospective Students
+                                     <br/>                                                                     and Parents
+                                                                                                </div>
+                                            </div>
+            </div>
+            </a>                                                                        <a href="admissions-aid/apply.html">
+                        <div class="homeCircle">
+                    <img alt="New Students" src="_files/images/admissions-feature-image.jpg"/>
+                    <div class="information info03">
+                                                                                                                    <div class="fontrb">
+                            <em>
+                                                                    Welcome
+                                     <br/>                                                                     New Students
+                                                                                                </em>
+                        </div>
+                                             
+                                                                                                    <div class="fontrr">
+                                                                    Get Started Here
+                                                                                                </div>
+                                            </div>
+            </div>
+            </a>            </div>
+</div>
+
+
+
+            
+        
+            <div id="spotlight" style="background-image: url(uploaded-files/images/place-holder/spotbackground.png);">
+            <div id="spotwhite">
+            <div class="spotinner">
+                <div class="center">
+                    <h2 class="logo-h2 center boldmobile" id="logo-h2-spotlight">
+                                                    <a href="spotlights.html">Spotlights</a>
+                                            </h2>
+                </div>
+                <div class="spotlight-container swiper-container content">
+                    <!-- Additional required wrapper -->
+                    <div class="slick-div">
+                        <!-- Slides -->
+                                                   
+                            <div class="swiper-slide">
+                                                                    <a href="about/transformative-climate-communities.html">
+                                                                <div>
+                                                                                                                   
+                                        <h3>Community Partnerships</h3>
+                                                                        <div class="flex mobilespotlight">
+                                                                                    <p>We would like to thank our community partners for all the work done over the past few months. The dedication and commitment has resulted in the Transformative Climate Community (TCC) proposal for the Fresno City College West Fresno Satellite becoming one step closer to reality.</p>
+                                                                                                                            <img alt="President Goldsmith and Mayor Brand" src="uploaded-files/images/common/president-and-mayor-spotlight.png"/>
+                                                                            </div>
+                                                                                                                                                </div>
+                                                                    </a>
+                                                            </div>
+                           
+                                                   
+                            <div class="swiper-slide">
+                                                                    <a href="student-services/programs/central-valley-promise.html">
+                                                                <div>
+                                                                                                                   
+                                        <h3>Central Valley Promise</h3>
+                                                                        <div class="flex mobilespotlight">
+                                                                                    <p>The Central Valley Promise is a community effort to guarantee a path to college for students in our region. The Promise will ensure that if students and their parents pledge to do what it takes in middle and high school to prepare, college will be there for them in the future, guaranteed.</p>
+                                                                                                                            <img alt="graduate" src="uploaded-files/images/common/link-thumbnails/2019-spring-class-schedule-link-thumbnail.jpg"/>
+                                                                            </div>
+                                                                                                                                                </div>
+                                                                    </a>
+                                                            </div>
+                           
+                                                   
+                            <div class="swiper-slide">
+                                                                    <a href="campus-life/ram-pantry/index.html">
+                                                                <div>
+                                                                                                                   
+                                        <h3>Ram Pantry</h3>
+                                                                        <div class="flex mobilespotlight">
+                                                                                    <p>Ram Pantry has extended their hours. The Ram Pantry is a free food assistance program for college students currently enrolled at Fresno City College with an Associated Student Body (ASB) card. The Ram Pantry believes that food insecurity and hunger should not be a barrier to success for students. The goal is to increase the graduation and course completion rate of our students. </p>
+                                                                                                                            <img alt="free food" src="_files/images/thumbs/ram-pantry-homepage-slider-thumb1.jpg"/>
+                                                                            </div>
+                                                                                                                                                </div>
+                                                                    </a>
+                                                            </div>
+                           
+                                                   
+                            <div class="swiper-slide">
+                                                                    <a href="academics/career-and-technical-education/fire-technology/index.html">
+                                                                <div>
+                                                                                                                   
+                                        <h3>Fire Technology</h3>
+                                                                        <div class="flex mobilespotlight">
+                                                                                    <p>The Basic Fire Academy program prepares students with the knowledge and skills necessary to become a State of California Certified Firefighter 1.  The curriculum is designed to provide the extensive hands-on training required by many fire agencies for entry-level employment as a firefighter.</p>
+                                                                                                                            <img alt="Fire Fighters" src="uploaded-files/images/academics/fire-spotlight.jpg"/>
+                                                                            </div>
+                                                                                                                                                </div>
+                                                                    </a>
+                                                            </div>
+                           
+                                                   
+                            <div class="swiper-slide">
+                                                                    <a href="campus-life/events-and-places/performing-arts/index.html">
+                                                                <div>
+                                                                                                                   
+                                        <h3>Theatre - Music - Dance</h3>
+                                                                        <div class="flex mobilespotlight">
+                                                                                    <p>The Performing Arts at Fresno City College are vibrant and alive.  Check out the latest events!  Something is always happening.</p>
+                                                                                                                            <img alt="sing" src="_files/images/news-singers.png"/>
+                                                                            </div>
+                                                                                                                                                </div>
+                                                                    </a>
+                                                            </div>
+                           
+                                                   
+                            <div class="swiper-slide">
+                                                                    <a href="academics/divisions/social-sciences-division/culinary-arts.html">
+                                                                <div>
+                                                                                                                   
+                                        <h3>Culinary Arts</h3>
+                                                                        <div class="flex mobilespotlight">
+                                                                                    <p>Want to be a chef?  Start your career in under 18 months.  Three levels of certification.  Learn everything you need to know to work in the food industry.</p>
+                                                                                                                            <img alt="Vote Spot" src="_files/images/spotlights/culinary---spotlight-topic.jpg"/>
+                                                                            </div>
+                                                                                                                                                </div>
+                                                                    </a>
+                                                            </div>
+                           
+                                                   
+                            <div class="swiper-slide">
+                                                                    <a href="academics/career-and-technical-education/police-academy/index.html">
+                                                                <div>
+                                                                                                                   
+                                        <h3>Police Academy</h3>
+                                                                        <div class="flex mobilespotlight">
+                                                                                    <p>Interested in Law Enforcement? The Basic Police Academy Certificate of Achievement program offers curriculum to prepare students with the knowledge and skills necessary to complete a law enforcement field training program certified by the California Commission on Peace Officer Standards and Training (POST)</p>
+                                                                                                                            <img alt="military salute" src="_files/images/news-police.png"/>
+                                                                            </div>
+                                                                                                                                                </div>
+                                                                    </a>
+                                                            </div>
+                           
+                                                   
+                            <div class="swiper-slide">
+                                                                    <a href="academics/divisions/apa-division/registered-nursing/index.html">
+                                                                <div>
+                                                                                                                   
+                                        <h3>Nursing</h3>
+                                                                        <div class="flex mobilespotlight">
+                                                                                    <p>Interested in Nursing or one of the health sciences?  Fresno City College has one of the highest pass rates in the state.  Our health service programs are among the most comprehensive and affordable.</p>
+                                                                                                                            <img alt="nursing" src="_files/images/nursing-spotlight-topic.jpg"/>
+                                                                            </div>
+                                                                                                                                                </div>
+                                                                    </a>
+                                                            </div>
+                           
+                                            </div>
+                                        <div class="spotlight_mobile_extension">
+                        <div class="center">
+                            <a class="lightgreen button fontrm" href="spotlights.html">More spotlights &gt;</a>
+                        </div>
+                    </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+
+
+        
+	<div id="footermenu">
+		<div class="content flex">
+			<div class="noleftpadd college_logo">
+				<a href="index.html">
+					<img alt="Fresno City College Logo" src="_files/images/footerlogo.png"/>
+				</a>
+				<div class="fontrr">1101 East University Ave
+				
+					<br/>Fresno, CA 93741
+				
+					<br/>(559) 442-4600
+			
+				</div>
+				<div class="flex social-icons-foot">
+					<a href="https://twitter.com/fresnocity" target="_blank">
+						<img alt="Join Twitter" src="_files/images/join_tw.png"/>
+					</a>
+					<a href="https://www.facebook.com/FresnoCityCollege/" target="_blank">
+						<img alt="Join Facebook" src="_files/images/join_fb.png"/>
+					</a>
+					<a href="https://www.youtube.com/channel/UCLLKxZGvV8lTqItTdevLu4Q" target="_blank">
+						<img alt="Join YouTube" src="_files/images/join_yt.png"/>
+					</a>
+					<a href="https://www.instagram.com/fresnocitycollege/" target="_blank">
+						<img alt="Join Instagram" src="_files/images/join_ig.png"/>
+					</a>
+				</div>
+			</div>
+			<div>
+				<dl>
+					<dt class="fontrr boldmobile">Quicklinks</dt>
+					<dd>
+						<a href="admissions-aid/apply.html">Apply For Admission</a>
+					</dd>
+					<dd>
+						<a href="events/index.html">Calendar</a>
+					</dd>
+					<dd>
+						<a href="about/contact.html#campus">Campus Map</a>
+					</dd>
+					<dd>
+						<a href="https://scccd.instructure.com/" target="_blank">Canvas</a>
+					</dd>
+					<dd>
+						<a href="admissions-aid/schedules.html">Class Schedules</a>
+					</dd>
+					<dd>
+						<a href="academics/counseling/index.html">Counseling</a>
+					</dd>
+					<dd>
+						<a href="directory/index.html">Faculty/staff Directory</a>
+					</dd>
+					<dd>
+						<a href="academics/finals.html">Final Exam Schedule</a>
+					</dd>
+					<dd>
+						<a href="admissions-aid/financial-aid-office/index.html">Financial Aid</a>
+					</dd>
+					<dd>
+						<a href="https://www.scccd.edu/departments/human-resources/index.html" target="_blank">Human Resources</a>
+					</dd>
+					<dd>
+						<a href="faculty-and-staff/institutional-research-and-effectiveness/institutional-research/index.html">Institutional Research</a>
+					</dd>
+				</dl>
+			</div>
+			<div>
+				<dl>
+					<dt class="fontrr boldmobile">Campus</dt>
+					<dd>
+						<a href="https://www.scccd.edu/departments/district-operations/police/crime-alerts.html" target="_blank">Crime Alerts</a>
+					</dd>
+					<dd>
+						<a href="http://scccdpolice.com/clery-report" target="_blank">Clery Report</a>
+					</dd>
+					<dd>
+						<a href="http://scccdpolice.com/" target="_blank">District Police</a>
+					</dd>
+					<dd>
+						<a href="https://www.scccd.edu/about/bond-measures.html" target="_blank">Measure C</a>
+					</dd>
+					<dd>
+						<a href="https://www.scccd.edu/career-opportunities/index.html" target="_blank">Jobs</a>
+					</dd>
+					<dd>
+						<a href="news/index.html">News</a>
+					</dd>
+					<dd>
+						<a href="campus-life/parking-permits-and-tickets.html">Parking</a>
+					</dd>
+				</dl>
+			</div>
+			<div>
+				<dl>
+					<dt class="fontrr boldmobile">Other Colleges</dt>
+					<dd>
+						<a href="https://www.reedleycollege.edu/index.html">Reedley College</a>
+					</dd>
+					<dd>
+						<a href="https://www.maderacenter.com/index.html">Madera Center</a>
+					</dd>
+					<dd>
+						<a href="https://www.oakhurstcenter.com/index.html">Oakhurst Center</a>
+					</dd>
+					<dd>
+						<a href="https://www.cloviscollege.edu/index.html">Clovis Community College</a>
+					</dd>
+					<dd>
+						<a href="https://www.scccd.edu/index.html">State Center Community 
+							<br/>College District (SCCCD)
+					
+						</a>
+					</dd>
+				</dl>
+			</div>
+			<div>
+				<dl>
+					<dt class="fontrr boldmobile">Progress &#38; Performance</dt>
+					<dd>
+						<a href="about/accreditation/index.html">Accreditation</a>
+					</dd>
+					<dd>
+						<a href="about/accessibility/index.html">Accessibility</a>
+					</dd>
+					<dd>
+						<a href="academics/counseling/transfer-center/index.html">Associate Degree
+						
+							<br/>For Transfer
+					
+						</a>
+					</dd>
+					<dd>
+						<a href="faculty-and-staff/institutional-research-and-effectiveness/institutional-research/student-success-scorecard.html">Student Success
+						
+							<br/>Scorecard
+					
+						</a>
+					</dd>
+					<dd>
+						<a href="faculty-and-staff/institutional-research-and-effectiveness/index.html">Institutional Research
+						
+							<br/>and Effectiveness
+					
+						</a>
+					</dd>
+					<dd>
+						<a href="academics/gainful-employment/index.html">Gainful Employment</a>
+					</dd>
+					<dd>
+						<a href="admissions-aid/financial-aid-office/cost-of-attendance.html">Net Price Calculator</a>
+					</dd>
+				</dl>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="content flex">
+			<div>
+				<div class="fontrr">&#169;2017-
+					<script>document.write(new Date().getFullYear())</script>  Fresno City College
+				</div>
+			</div>
+			<div>
+				<a class="borderbottom" href="mailto:debbie.nichols@fresnocitycollege.edu">Contact Webmaster</a>
+				<a class="borderleft borderbottom" href="about/terms-privacy.html">Terms of Use and Privacy Policy</a>
+			</div>
+		</div>
+	</footer>
+
+        
+<script src="_files/js/jquery-1.11.2.min.js"></script>
+<script src="_files/js/jquery.mobile-events.min.js"></script>
+<script src="_files/js/jquery-accessiblemegamenu.js"></script> 
+<script src="_files/js/main.js"></script>
+<script src="_files/js/accordian.js"></script>
+<script src="_files/js/accordian_init.js"></script>
+<script src="_files/js/slick.js"></script>
+<script src="_files/js/bootstrap.min.js"></script>
+<script src="_files/js/bootstrap-accessibility.js"></script>
+<script src="https://ozplayer.global.ssl.fastly.net/2.0/ozplayer-core/ozplayer.free.js" type="text/javascript"></script>
+<script src="https://ozplayer.global.ssl.fastly.net/2.0/ozplayer-lang/en.js" type="text/javascript"></script>
+<script src="https://ozplayer.global.ssl.fastly.net/2.0/config.js" type="text/javascript"></script>
+<!--script src="_files/js/siteimprove.js"></script-->
+
+        <script src="https://www.scccd.edu/event-files/homeevents.js" type="text/javascript"></script>
+    </body>
+</html>
