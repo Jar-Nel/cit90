@@ -3,6 +3,7 @@ package main
 import (
 	"net/http"
 	"fmt"
+	"sort"
 	"log"
 	//"github.com/valyala/fasthttp"
 )
@@ -23,9 +24,23 @@ func foo(w http.ResponseWriter, r *http.Request){
 		"Referrer":r.Referer(),
 		"Host":r.Host,
 	}
-	for k,v:=range m{
-		fmt.Fprintf(w,"%s: %s\n",k,v)
+
+	keys:=[]string{}
+	for k:= range m{
+		keys = append(keys, k)
 	}
+
+	sort.Strings(keys)
+
+	//sorted
+	for _,k := range keys{
+		fmt.Fprintf(w,"%s: %s\n",k,m[k])
+	}
+	
+	//Unsorted
+	//for k,v:=range m{
+	//	fmt.Fprintf(w,"%s: %s\n",k,v)
+	//}
 
 	fmt.Fprintf(w,"\tHeaders:\n")
 	for k,v :=range r.Header {
