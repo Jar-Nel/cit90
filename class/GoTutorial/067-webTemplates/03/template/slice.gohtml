@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/site.css">
+    <title>Slice</title>
+</head>
+<body>
+   <h1>Slice</h1>
+   <!-- Get index and value -->
+   <p>With Index</p>
+    {{range $index, $element := .}}
+        <div>
+        <span>{{$index}}:&nbsp;</span>
+        <span>{{$element}}</span>
+        </div>
+    {{end}}
+    <!-- again without index or value, just iterates values-->
+    <p>Without Index</p>
+    {{range .}}
+        <div>
+        <span>{{.}}</span>
+        </div>
+    {{end}}
+    <p><a href="/">Index</a></p>    
+</body>
+</html>

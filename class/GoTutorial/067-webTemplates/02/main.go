@@ -6,14 +6,10 @@ import (
 	"log"
 )
 
-type Account struct {
-    FirstName string
-    LastName  string
-}
-
 var tpl *template.Template
 
 func init(){
+	//parseglob parses everything in a location
 	tpl=template.Must(template.ParseGlob("./template/*.gohtml"))
 }
 
