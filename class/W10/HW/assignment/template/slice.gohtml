@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/site.css">
+    <title>Slice</title>
+</head>
+<body>
+    <p><a href="/">Back to index</a></p>    
+    <h1>Template with slice</h1>
+   <!-- Get index and value -->
+   <p>Range over slice with index</p>
+    {{range $index, $element := .}}
+        <div>
+        <span>{{$index}}:&nbsp;</span>
+        <span>{{$element}}</span>
+        </div>
+    {{end}}
+    <!-- again without index or value, just iterates values-->
+    <p>Range over slice without index</p>
+    <ul>
+    {{range .}}
+        <div>
+        <li>{{.}}</li>
+        </div>
+    {{end}}
+    </ul>
+</body>
+</html>

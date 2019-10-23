@@ -1,0 +1,9 @@
+body {
+    font-size:18px;
+}
+
+.PassedString {
+    margin-left: 10px;
+    font-style: italic;
+    font-size: 20px;
+}
