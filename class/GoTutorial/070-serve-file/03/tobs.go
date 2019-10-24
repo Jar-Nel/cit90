@@ -2,10 +2,7 @@ package main
 
 import (
 	"net/http"
-	//"text/template"
-	//"html/template"  //text/template with protections against code injection.
 	"log"
-	//"os"
 )
 
 func main() {
