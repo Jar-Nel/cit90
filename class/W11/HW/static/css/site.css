@@ -1,0 +1,17 @@
+body {
+    font-size:18px;
+}
+
+.PassedString {
+    margin-left: 10px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#tplFooter {
+    width: 100%;
+    bottom: 0;
+    left:0;
+    position: absolute;
+    background-color: beige;
+}
