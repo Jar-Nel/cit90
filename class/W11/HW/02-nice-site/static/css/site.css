@@ -1,0 +1,12 @@
+#tplHeader {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    box-sizing: border-box;
+    background-color: #555;
+    padding:10px;
+    color: #ccc;
+    display: flex;
+    
+}
