@@ -26,6 +26,9 @@ func main() {
 	//http.Handle("/file/", http.StripPrefix("/file", http.FileServer(http.Dir("./static"))))
 
 	http.HandleFunc("/home",fIndex) 
+	http.HandleFunc("/about",fAbout) 
+	http.HandleFunc("/shop",fShop) 
+	http.HandleFunc("/contact",fContact) 
 
 	log.Fatal(http.ListenAndServe(":808",nil))
 }
@@ -36,6 +39,33 @@ func fIndex(w http.ResponseWriter, r *http.Request){
 		Title: "Home",
 		Heading: "Welcome to the site",
 		Body: "This is the Home page of the site.",
+	}
+	templateErr(w, tpl.ExecuteTemplate(w, "site.gohtml", data))
+}
+
+func fAbout(w http.ResponseWriter, r *http.Request){
+	data:=pageData {
+		Title: "About",
+		Heading: "About the site",
+		Body: "This site served by Go.",
+	}
+	templateErr(w, tpl.ExecuteTemplate(w, "site.gohtml", data))
+}
+
+func fShop(w http.ResponseWriter, r *http.Request){
+	data:=pageData {
+		Title: "Shop",
+		Heading: "Did you want to buy something?",
+		Body: "Nothing to buy",
+	}
+	templateErr(w, tpl.ExecuteTemplate(w, "site.gohtml", data))
+}
+
+func fContact(w http.ResponseWriter, r *http.Request){
+	data:=pageData {
+		Title: "Contact",
+		Heading: "Contact Us",
+		Body: "This is where I would put contact information if I wanted to hear from you.",
 	}
 	templateErr(w, tpl.ExecuteTemplate(w, "site.gohtml", data))
 }
