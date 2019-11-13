@@ -1,0 +1,19 @@
+{{define "content"}}
+		<form action="/psignup" method="POST">
+			<div>
+				<label for="firstname">First Name: </label>
+				<input type="text" id="firstname" name="firstname" />
+			</div>
+			<div>
+				<label for="email">Email: </label>
+				<input type="text" id="email" name="email" />
+			</div>
+			<div>
+				<label for="pw">Password: </label>
+				<input type="password" id="pw" name="pw" />
+			</div>
+			<div id="formcontrol">
+				<input type="submit" value="Submit" />
+			</div>
+		</form>
+{{end}}
