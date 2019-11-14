@@ -20,7 +20,7 @@
             <input type="checkbox" id="hbmenu_cb">    
             <nav id="tplNav">
                 {{if .LoggedIn}}
-                    <p>Logged in as: {{.User.Firstname}}</p>
+                    <p>Logged in as: {{.User.Name}}</p>
                     <a href="/logout" class="logout">Logout</a>
                 {{else}}
                     <a href="/login" class="logout">Login</a>

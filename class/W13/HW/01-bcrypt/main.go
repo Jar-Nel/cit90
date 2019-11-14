@@ -10,14 +10,14 @@ import (
 
 func main() {
 
-	pw:="P@ssword01"
+	pw:="pw123"
 	bs,err:=bcrypt.GenerateFromPassword([]byte(pw), bcrypt.DefaultCost)
 	if err!=nil {
 		log.Fatal("GenerateFromPassword error", err)
 	}
-
-	pw2:="P@ssword01"
-	pw3:="NotP@ssword01"
+	fmt.Println(string(bs[:]))
+	pw2:="pw123"
+	pw3:="Notpw123"
 
 
 	fmt.Println("Compare password stored with password entered")

@@ -46,7 +46,7 @@ func appendTXTFile(){
 		file.WriteString(f.Sprintf("I will not Dance in class. %d\n",i))
 	}
 
-}explorer
+}
 
 func readFileFMT() {
 	file, err :=os.Open("data.txt")

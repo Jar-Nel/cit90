@@ -1,6 +1,11 @@
 package main
 
+//Convert User to JSON.
+//Save user to file.
+//read users from file.
+
 import (
+	"golang.org/x/crypto/bcrypt"
 	"net/http"
 	url "net/url"
 	//"io"
@@ -8,10 +13,13 @@ import (
 	//"html/template"  //text/template with protections against code injection.
 	"log"
 	"fmt"
+	"os"
+	"encoding/json"
+	"io/ioutil"
 )
 
 type user struct {
-	Firstname string
+	Name string
 	Email string
 	Password string
 }
@@ -35,6 +43,9 @@ var tpl *template.Template
 }*/
 
 func main() {
+	//userExists("test@test.com")
+	//userExists("testuser@test.com")
+
 	//Set up location for static content
 	http.Handle("/", http.FileServer(http.Dir("./static")))
 
@@ -62,7 +73,9 @@ func getUser(w http.ResponseWriter, r *http.Request) (user, bool) {
 		http.Redirect(w,r,"/login?l="+url.QueryEscape(r.URL.String()), http.StatusSeeOther)
 		return u, false
 	}
-	if u, ok:=db[c.Value]; ok {
+	//if u, ok:=db[c.Value]; ok {
+	if u,ok:=readUser(c.Value); ok {
+		fmt.Println(u)
 		return u, true
 	}
 
@@ -143,6 +156,7 @@ func signup(w http.ResponseWriter, r *http.Request){
 	templateErr(w, t.ExecuteTemplate(w, "site.gohtml", data))
 }
 
+//process sign up.
 func psignup(w http.ResponseWriter, r *http.Request){
 	if (r.Method !=http.MethodPost) {
 		http.Redirect(w,r,"/", http.StatusSeeOther)
@@ -154,7 +168,7 @@ func psignup(w http.ResponseWriter, r *http.Request){
 	pw:=r.FormValue("pw")
 
 	if fn=="" {
-		http.Error(w, "firstname is required", http.StatusBadRequest)
+		http.Error(w, "Name is required", http.StatusBadRequest)
 		return
 	}	
 	if email=="" {
@@ -166,11 +180,33 @@ func psignup(w http.ResponseWriter, r *http.Request){
 		return
 	}
 
+	if _,ok:=readUser(email); ok {
+		http.Error(w, "user already exists", http.StatusBadRequest)
+		return
+	}
+	
+	users:=readUsers()
+	
+	pwb,_:=bcrypt.GenerateFromPassword([]byte(pw), bcrypt.DefaultCost)
+	pw=string(pwb[:])
 	u:=user{
-		Firstname: fn,
+		Name: fn,
 		Email: email, 
 		Password: pw,
 	}
+	
+	users[email]=u
+
+	js,_:=json.Marshal(users)
+
+	fmt.Println(string(js))
+	file, err :=os.Create("./data/users.json")
+	if err!=nil{
+		fmt.Println("file error, make this http 500")
+	}
+	defer file.Close()
+	file.Write(js)
+
 	db[email]=u
 
 	c:=&http.Cookie{
@@ -260,6 +296,23 @@ func plogin(w http.ResponseWriter, r *http.Request){
 		return
 	}
 
+	if u, ok:=readUser(email); ok{
+		if msg, ok:=checkPW([]byte(u.Password), pw); ok{
+			fmt.Println("logged in:",msg)
+			c:=&http.Cookie{
+				Name: "02-session",
+				Value: email,
+				Path:"/",
+			}
+
+			http.SetCookie(w, c)
+			http.Redirect(w,r,loc, http.StatusSeeOther)
+			return		
+		}
+
+	}
+
+	/*
 	if db[email].Password==pw {
 		c:=&http.Cookie{
 			Name: "02-session",
@@ -271,6 +324,7 @@ func plogin(w http.ResponseWriter, r *http.Request){
 		http.Redirect(w,r,loc, http.StatusSeeOther)
 		return
 	} 
+	*/
 
 	w.Header().Set("Content-Type", "text/html; charset=utf-8")
 	data:=pageData {
@@ -331,3 +385,48 @@ func templateErr(w http.ResponseWriter, err error){
 		http.Error(w, "couldn't load template", http.StatusInternalServerError)
 	}
 }
+
+
+/* #region UserUtils */
+
+func readUsers()(map[string]user){
+	//try to read users from file.
+	//users:=struct {Users []user}{[]user{}}
+	userMap:=map[string]user{}
+
+	jsonFile, err :=os.Open("./data/users.json")
+	if err!=nil{
+		return userMap
+	}
+	defer jsonFile.Close()
+	bv,_:=ioutil.ReadAll(jsonFile)
+	//fmt.Println(string(bv[:]))
+	json.Unmarshal(bv, &userMap)
+	//fmt.Println(users)
+
+	//for _,user:= range users.Users {
+	//	userMap[user.Email]=user
+	//}
+	return userMap
+
+}
+
+func readUser(userEmail string)(user, bool) {
+	u:=readUsers()[userEmail]
+	if u==(user{}) {
+		return u,false
+	}
+	//fmt.Println("|",u,"|")
+	return u,true
+
+}
+
+func checkPW(pwb[] byte, pws string)(string, bool) {
+	err:=bcrypt.CompareHashAndPassword(pwb,[]byte(pws))
+	if err!=nil{
+		return "Passwords do not match", false
+	}
+	return "Passwords match", true
+}
+
+/* #endregion */
