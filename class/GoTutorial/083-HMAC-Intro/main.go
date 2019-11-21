@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"crypto/hmac"
 	"crypto/sha256"
+	"encoding/hex"
 )
 
 const key string ="lotta crap"
@@ -11,10 +12,13 @@ const key string ="lotta crap"
 func main() {
 	msg:="this is a message"
 	sig,_:=signMessage([]byte(msg))
+	s:=hex.EncodeToString(sig)
 	fmt.Println("Message: ", msg)
-	fmt.Printf("Sig: %x\n",sig)
+	fmt.Printf("Sig: %x\n",sig) //for HW convert both to compare.
+	fmt.Println(s)
 
-	b, _:=checkSig([]byte(msg), sig)
+	sig2,_:=hex.DecodeString("cf81e1ad23566b543c0d2baaaa80a4105c1a52074bf39b83ec0e2ba75c70e463")
+	b, _:=checkSig([]byte(msg), []byte(sig2))
 	fmt.Printf("%v\n",b)
 
 	b, _=checkSig([]byte("Changed message"), sig)
