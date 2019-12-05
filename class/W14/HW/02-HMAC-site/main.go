@@ -8,37 +8,33 @@ import (
 	"net/http"
 	"log"
 	"fmt"
-	//"os"
-	//"encoding/json"
-	//"io/ioutil"
-	//"strings"
-
-	//Encryption
-	//"golang.org/x/crypto/bcrypt"
-	//"crypto/hmac"
-	//"crypto/sha256"
-	//"encoding/hex"
+	web "main/web"
 )
 
 
 func main() {
 	//Set up location for static content
 	http.Handle("/", http.FileServer(http.Dir("./static")))
+	//http.HandleFunc("/", secureRoute)
 
-	http.HandleFunc("/home", index)
+	http.HandleFunc("/sec", web.SecureRoute)
+	http.HandleFunc("/sec/", web.SecureRoute)
 
-	http.HandleFunc("/signup", signup)
+	http.HandleFunc("/home", web.SecureRoute)
+	http.HandleFunc("/index", web.SecureRoute)
+
+	http.HandleFunc("/signup", web.Signup)
 	//Process SignUp
-	http.HandleFunc("/psignup", psignup)
+	http.HandleFunc("/psignup", web.Psignup)
 
-	http.HandleFunc("/login", login)
+	http.HandleFunc("/login", web.Login)
 	//Process Login
-	http.HandleFunc("/plogin", plogin)
+	http.HandleFunc("/plogin", web.Plogin)
 
-	http.HandleFunc("/logout", logout)
+	http.HandleFunc("/logout", web.Logout)
 
-	http.HandleFunc("/about",about) 
-	http.HandleFunc("/contact",contact) 
+	http.HandleFunc("/about",web.About) 
+	http.HandleFunc("/contact",web.Contact) 
 
 	fmt.Println("Starting webserver on port 808")
 	log.Fatal(http.ListenAndServe(":808",nil))

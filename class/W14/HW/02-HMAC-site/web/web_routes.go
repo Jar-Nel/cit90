@@ -1,19 +1,21 @@
-package main
+package web
 
 import (
 	"net/http"
 	url "net/url"
-	//"io"
+	"io"
 	"text/template"
 	//"html/template"  //text/template with protections against code injection.
-	//"fmt"
+	"fmt"
 	"strings"
+	"os"
+	utils "main/utils"
 )
 
 var tpl *template.Template
 
 type pageData struct {
-	User user
+	User utils.User
 	LoggedIn bool
 	Title string
 	Heading string
@@ -27,8 +29,8 @@ type pageData struct {
 }*/
 
 //Security Routine.  Gets user if exists.
-func getUser(w http.ResponseWriter, r *http.Request) (user, bool) {
-	var u user
+func getUser(w http.ResponseWriter, r *http.Request) (utils.User, bool) {
+	var u utils.User
 	c, err:=r.Cookie("02-session")
 	if err!=nil {
 		//if error (no cookie read) not logged in
@@ -37,9 +39,9 @@ func getUser(w http.ResponseWriter, r *http.Request) (user, bool) {
 	}
 	
 	//we have a cookie, check that it is valid (HMAC)
-	if (validCookie(c.Value)){
+	if (utils.ValidCookie(c.Value)){
 		//cookie is valid, get the user
-		if u,ok:=readUser(strings.Split(c.Value,"|")[0]); ok {
+		if u,ok:=utils.ReadUser(strings.Split(c.Value,"|")[0]); ok {
 			return u, true
 		}
 	}
@@ -48,32 +50,51 @@ func getUser(w http.ResponseWriter, r *http.Request) (user, bool) {
 	return u, false
 }
 
-func index(w http.ResponseWriter, r *http.Request){
-	//Try to read cookie
-	//c, err:=r.Cookie("02-session")
-	//if err!=nil {
-		//if error (no cookie read) not logged in
-	//	http.Redirect(w,r,"/login", http.StatusSeeOther)
-		//return
-	//}
+//look at maps to functions one for secure, one for unsecure, default to static dir
+//consider adding group membership
+//also add session mgmt to user.
+
+func SecureRoute(w http.ResponseWriter, r *http.Request){
+	fmt.Println(strings.ReplaceAll(r.URL.EscapedPath(), "/", ""))
 	if u, ok:=getUser(w,r); ok {
-		//show it.
-		w.Header().Set("Content-Type", "text/html; charset=utf-8")
-		//btpl:=template.ParseFiles("index.gohtml")
-		//tpl.
-		data:=pageData {
-			User: u,
-			LoggedIn: true,
-			Title: "Home",
-			Heading: "Welcome to the site.",
-			Body: "",
+		switch(strings.ReplaceAll(r.URL.EscapedPath(), "/", "")){
+		case "index":
+			fallthrough
+		case "home":
+			Index(w, r, u)
+		default:
+			fmt.Println("./static"+r.URL.EscapedPath())
+			http.ServeFile(w,r,"./static"+r.URL.EscapedPath())
+
 		}
-		t:=getTemplates("index")
-		templateErr(w, t.ExecuteTemplate(w, "site.gohtml", data))
+		return
 	}
+	fmt.Println("./static"+r.URL.EscapedPath())
+	fileReq, err :=os.Open("./static"+r.URL.EscapedPath())
+	if err!=nil {
+		fmt.Println(err.Error())
+		//http.Error(w, err.Error(), http.StatusNotFound)
+		return
+	}
+	defer fileReq.Close()
+	io.Copy(w,fileReq)
 }
 
-func about(w http.ResponseWriter, r *http.Request) {
+func Index(w http.ResponseWriter, r *http.Request, u utils.User){
+	//show it.
+	w.Header().Set("Content-Type", "text/html; charset=utf-8")
+	data:=pageData {
+		User: u,
+		LoggedIn: true,
+		Title: "Home",
+		Heading: "Welcome to the site.",
+		Body: "",
+	}
+	t:=getTemplates("index")
+	templateErr(w, t.ExecuteTemplate(w, "site.gohtml", data))
+}
+
+func About(w http.ResponseWriter, r *http.Request) {
 	if u, ok:=getUser(w,r); ok {
 		//show it.
 		w.Header().Set("Content-Type", "text/html; charset=utf-8")
@@ -91,7 +112,7 @@ func about(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func contact(w http.ResponseWriter, r *http.Request) {
+func Contact(w http.ResponseWriter, r *http.Request) {
 	if u, ok:=getUser(w,r); ok {
 		//show it.
 		w.Header().Set("Content-Type", "text/html; charset=utf-8")
@@ -109,7 +130,7 @@ func contact(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func signup(w http.ResponseWriter, r *http.Request){
+func Signup(w http.ResponseWriter, r *http.Request){
 	w.Header().Set("Content-Type", "text/html; charset=utf-8")
 	data:=pageData {
 		Title: "SignUp",
@@ -122,7 +143,7 @@ func signup(w http.ResponseWriter, r *http.Request){
 }
 
 //process sign up.
-func psignup(w http.ResponseWriter, r *http.Request){
+func Psignup(w http.ResponseWriter, r *http.Request){
 	if (r.Method !=http.MethodPost) {
 		http.Redirect(w,r,"/", http.StatusSeeOther)
 		return
@@ -145,23 +166,23 @@ func psignup(w http.ResponseWriter, r *http.Request){
 		return
 	}
 
-	if _,ok:=readUser(email); ok {
+	if _,ok:=utils.ReadUser(email); ok {
 		http.Error(w, "user already exists", http.StatusBadRequest)
 		return
 	}
 		
-	u:=user{
+	u:=utils.User{
 		Name: fn,
 		Email: email, 
 		Password: pw,
 	}
 	
-	ok, err:=saveUser(u)
+	ok, err:=utils.SaveUser(u)
 	if err!=nil{
 		http.Error(w, "Error saving user", http.StatusBadRequest)
 	}
 	if ok {
-		http.SetCookie(w, createCookie(email))
+		http.SetCookie(w, utils.CreateCookie(email))
 
 		w.Header().Set("Content-Type", "text/html; charset=utf-8")
 		data:=pageData {
@@ -184,7 +205,7 @@ func psignup(w http.ResponseWriter, r *http.Request){
 
 }
 
-func login(w http.ResponseWriter, r *http.Request) {
+func Login(w http.ResponseWriter, r *http.Request) {
 	loc:=r.URL.Query().Get("l")
 
 	w.Header().Set("Content-Type", "text/html; charset=utf-8")
@@ -223,7 +244,7 @@ func login(w http.ResponseWriter, r *http.Request) {
 	`)
 }*/
 
-func plogin(w http.ResponseWriter, r *http.Request){
+func Plogin(w http.ResponseWriter, r *http.Request){
 	if (r.Method !=http.MethodPost) {
 		http.Redirect(w,r,"/", http.StatusSeeOther)
 		return
@@ -246,9 +267,9 @@ func plogin(w http.ResponseWriter, r *http.Request){
 		return
 	}
 
-	if u, ok:=readUser(email); ok{
-		if _, ok:=checkPW([]byte(u.Password), pw); ok{
-			http.SetCookie(w, createCookie(email))
+	if u, ok:=utils.ReadUser(email); ok{
+		if _, ok:=utils.CheckPW([]byte(u.Password), pw); ok{
+			http.SetCookie(w, utils.CreateCookie(email))
 			
 			//sig,_:=signMessage([]byte(email))
 			//sigHex:=hex.EncodeToString(sig)
@@ -297,7 +318,7 @@ func plogin(w http.ResponseWriter, r *http.Request){
 	templateErr(w, t.ExecuteTemplate(w, "site.gohtml", data))
 }
 
-func logout(w http.ResponseWriter, r *http.Request){
+func Logout(w http.ResponseWriter, r *http.Request){
 	c, err:=r.Cookie("02-session")
 	if err!=nil {
 		//if error (no cookie read) not logged in

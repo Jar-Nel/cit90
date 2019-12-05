@@ -1,4 +1,4 @@
-package main
+package utils
 
 import (
 	"net/http"
@@ -7,7 +7,8 @@ import (
 	"fmt"
 )
 
-func validCookie(cv string) bool {
+//ValidCookie returns true if the cookie is valid
+func ValidCookie(cv string) bool {
 	xs:=strings.Split(cv,"|")
 	if len(xs)==2 {
 		email:=xs[0]
@@ -22,7 +23,8 @@ func validCookie(cv string) bool {
 	return false
 }
 
-func createCookie(cv string) *http.Cookie {
+//CreateCookie creates a new cookie
+func CreateCookie(cv string) *http.Cookie {
 	sig,_:=signMessage([]byte(cv))
 	sigHex:=hex.EncodeToString(sig)
 	cookieValue:=fmt.Sprintf("%s|%s",cv,sigHex)

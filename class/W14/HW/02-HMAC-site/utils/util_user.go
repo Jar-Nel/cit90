@@ -1,4 +1,4 @@
-package main
+package utils
 
 import (
 	"golang.org/x/crypto/bcrypt"
@@ -10,17 +10,18 @@ import (
 	"fmt"
 )
 
-type user struct {
+//User user struct
+type User struct {
 	Name string
 	Email string
 	Password string
 }
 
-var db =map[string]user{}
+var db =map[string]User{}
 
-func readUsers()(map[string]user){
+func readUsers()(map[string]User){
 	//try to read users from file.
-	userMap:=map[string]user{}
+	userMap:=map[string]User{}
 
 	jsonFile, err :=os.Open("./data/users.json")
 	if err!=nil{
@@ -36,9 +37,10 @@ func readUsers()(map[string]user){
 
 }
 
-func readUser(userEmail string)(user, bool) {
+//ReadUser Reads user
+func ReadUser(userEmail string)(User, bool) {
 	u:=readUsers()[userEmail]
-	if u==(user{}) {
+	if u==(User{}) {
 		return u,false
 	}
 	//fmt.Println("|",u,"|")
@@ -46,7 +48,8 @@ func readUser(userEmail string)(user, bool) {
 
 }
 
-func saveUser(u user)(bool, error) {
+//SaveUser saves user
+func SaveUser(u User)(bool, error) {
 	users:=readUsers()
 	pwb,_:=bcrypt.GenerateFromPassword([]byte(u.Password), bcrypt.DefaultCost)
 	u.Password=string(pwb[:])
@@ -62,7 +65,8 @@ func saveUser(u user)(bool, error) {
 	return true,nil
 }
 
-func checkPW(pwb[] byte, pws string)(string, bool) {
+//CheckPW Checks PW
+func CheckPW(pwb[] byte, pws string)(string, bool) {
 	err:=bcrypt.CompareHashAndPassword(pwb,[]byte(pws))
 	if err!=nil{
 		return "Passwords do not match", false
