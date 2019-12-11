@@ -1,0 +1,14 @@
+[
+  {
+    "UnicodeTest🤷‍♂️": "Test1",
+    "text": "Test2_??"
+  },
+  {
+    "UnicodeTest🤷‍♂️": "Test2",
+    "text": "Test2_??"
+  },
+  {
+    "UnicodeTest🤷‍♂️": "Test3",
+    "text": "Test2_¢??"
+  }
+]
